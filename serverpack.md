@@ -47,3 +47,7 @@ HMCL 需要服务器管理员额外提供一个 HTTP 服务器（只需要能提
 ## 第四步，更新整合包
 
 如果你需要更新整合包，那么将新的整合包经过第一步导出新的整合包压缩文件，并解压到类似 http://www.site.com/modpack 文件夹下即可完成新整合包的部署。
+
+**在玩家启动游戏时，HMCL会拉取 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录下的 server-manifest.json 进行交验，若服务器上的 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录的 server-manifest.json 不一致时，则将进行整合包更新操作**
+
+**要是想更新整合包，重复第三步的流程即可**
