@@ -63,3 +63,7 @@ You can also submit your suggestions here.
 2. [HMCL GitHub 地址](http://github.com/huanghongxun/HMCL)
 3. [HMCL 帮助文档 GitHub 地址](http://github.com/huanghongxun/HMCL-docs)
 4. [HMCL 官网](http://hmcl.huangyuhui.net)
+5. [HMCL CDN镜像源](https://github.com/Glavo/HMCL-Update)
+6. [HMCL CI](https://ci.huangyuhui.net)
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
