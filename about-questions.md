@@ -77,16 +77,16 @@ mods 是基于 mod_loader 的一个从文件上更改游戏的内容的外置组
 
 进阶一些的话，考虑 Java11+
 
-目前大于 Minecraft1.16.5 小于 Minecraft1.18 的版本最低需要 java16
+目前大于 Minecraft1.16.5 小于 Minecraft1.18 的版本最低需要 Java16
 
-而大于 Minecraft1.17.1 版本最低需要 java17
+而大于 Minecraft1.17.1 版本最低需要 Java17
 
-而小于 Minecraft1.17 的版本推荐使用 java8 
+而小于 Minecraft1.17 的版本推荐使用 Java8 
 
 **在最新版本的HMCL中，HMCL会提醒你该版本需要哪些java，以及自动下载java的功能**
 
 选择其他方法：
 > 先保证你有其他的Java
-> 进入 设置-->全局游戏设置-->Java路径--->选择自定义并选择你 jdk 目录下的/bin/java（Windows用户推荐选择/bin/javaw）后确定
+> 在HMCL中进入 设置-->全局游戏设置-->Java路径--->选择自定义并选择你 jdk 目录下的/bin/java（Windows用户推荐选择/bin/javaw）后确定（一般HMCL会正常识别到 Java 的路劲，无需折腾）
 
 __若出现任何的游戏崩溃问题请尝试返回默认的 Java__
