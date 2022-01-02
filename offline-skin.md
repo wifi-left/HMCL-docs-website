@@ -91,3 +91,6 @@ toc: true
   <h5>尚未发布的功能</h5>
   <p>这部分内容针对 Jekyll 尚未发布的版本</p>
 </div>
+
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
