@@ -12,47 +12,81 @@
 __想必你注意到我了，记住上面讲的话__
 
 首先 Minecraft 的下载有着 HMCL 就十分的简单  
+
 首先打开你的 hmcl   
 ![](assets/img/docs/about-questions/img.png)
+
 找到 `下载`  
+
 点击 `游戏`  
+
 选择一个你喜欢的版本  
+
 __版本从上往下由高到低__  
+
 ![](assets/img/docs/about-questions/img2.png)
+
 然后点击 `安装` 即可
+
 ![](assets/img/docs/about-questions/img3.png)
+
 ## 关于游戏的游玩
 __想必你注意到我了，记住上面讲的话__  
+
 等待游戏的下载过程中    
+
 或许可以了解一下游戏的游玩  
+
 简单的讲
+
 就是用 `破坏` 和 `创造` 来进行游玩
 
 详细请看 [wiki百科](https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E6%96%B0%E6%89%8B%E6%89%8B%E5%86%8C)
+
 ## 关于游戏的资源包
+
 下载完了，也玩了会  
+
 总有人讲啥 “啥啥啥 `材质包` 很好看”  
+
 `材质包` 一般是单指修改了游戏材质的 `资源包` ，正式译名为 `纹理包`
+
 `资源包` 可以做到很多的功能，甚至改变游戏的体验
+
 大致示意图![](assets/img/docs/about-questions/img4.jpg)
 
 资源包详细资料   [跳转](https://minecraft.fandom.com/zh/wiki/%E8%B5%84%E6%BA%90%E5%8C%85)
 
 ## 关于游戏的 mods 
+
 mods 是基于 mod_loader 的一个从文件上更改游戏的内容的外置组件  
+
 你可以在这获得 __更多的游戏内容__、__更好的游戏体验__、__更好的游戏观感__ 等等
 
 关于 mods 的详细使用方法 [跳转](auto-installing.md)
+
 ### 关于 mods 的报错解决方法
+
 在 [此文](auto-installing.md) 末尾中的确讲到了一定的解决方法
 
 但是我还是建议你看看更为详细的内容 [目前未写该教程，请等待]()
+
 ## 关于游戏的 Java 选择
+
 这边你一般先使用默认的 Java  
 
 进阶一些的话，考虑 Java11+
+
+目前大于 Minecraft1.16.5 小于 Minecraft1.18 的版本最低需要 java16
+
+而大于 Minecraft1.17.1 版本最低需要 java17
+
+而小于 Minecraft1.17 的版本推荐使用 java8 
+
+**在最新版本的HMCL中，HMCL会提醒你该版本需要哪些java，以及自动下载java的功能**
+
 选择其他方法：
 > 先保证你有其他的Java
-> 进入 设置-->全局游戏设置-->Java路径--->选择自定义并找到你需要的 jdk 的路径后确定
+> 进入 设置-->全局游戏设置-->Java路径--->选择自定义并选择你 jdk 目录下的/bin/java（Windows用户推荐选择/bin/javaw）后确定
 
-__如果出现任何的游戏崩溃问题请返回默认的 Java__
+__若出现任何的游戏崩溃问题请尝试返回默认的 Java__
