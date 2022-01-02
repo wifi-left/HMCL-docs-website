@@ -49,9 +49,9 @@ You can also submit your suggestions here.
 
    他将告诉你如何制作 HMCL 能够识别的数据包（Datapacks）。
 
-2. [制作整合包](serverpack.md)
+2. [制作服务端自动更新整合包](serverpack.md)
 
-   他将告诉你如何制作整合包。
+   他将告诉你如何制作会自动更新的整合包。
 
 3. [添加默认 authalic-injector 验证服务器](authlib-injector.md)
 
