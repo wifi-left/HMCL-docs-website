@@ -10,7 +10,8 @@
 
 ## 关于游戏的下载
 __想必你注意到我了，记住上面讲的话__
-首先 Minecraft 的下载有着 HMCL 十分的简单  
+
+首先 Minecraft 的下载有着 HMCL 就十分的简单  
 首先打开你的 hmcl   
 ![](assets/img/docs/about-questions/img.png)
 找到 `下载`  
