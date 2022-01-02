@@ -56,3 +56,5 @@ RealisticGlassPane.zip
 ```
 
 HMCL 将会将你打包好的数据包压缩包直接复制到 datapacks 文件夹，不会解压（因为原版游戏支持读取压缩包）。
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
