@@ -14,6 +14,8 @@
 
 选择完合适的版本之后就可以点击右下角的`安装`继续进行安装。
 
+目前，要在`Fabric`使用`Optifine`需要通过**方式四**安装。
+
 ### 方式二：修改/升级已安装版本
 
 在对应的游戏版本管理页面，点击`自动安装`，你会看到有个`Optifine`的选项。
@@ -21,7 +23,19 @@
 ![install_auto](assets/img/docs/install_optifine/install_auto-16338577874692.png)
 
 点开之后选择合适的版本然后等待安装完成即可。
-目前，要在`Fabric`使用`Optifine`需要通过**方式四**安装。。
+
+**若HMCL下载列表中没有Optifine或不是最新版**
+
+则在[Optifine官网](https://optifine.net/downloads)上下载合适版本的Optifine（下载完应为`OptiFine_<游戏版本>_<Optifine版本>.jar`）。
+
+
+在对应的游戏版本管理页面，点击自动安装，再点击【从本地文件安装/升级】，此时HMCL会弹出文件选择窗口，选择刚才下载的文件，等待HMCL安装完毕即可
+
+![Method5](https://user-images.githubusercontent.com/64117916/147845121-25a8429d-5593-4d85-a627-35039575e8d2.png)
+
+或通过**方式四**安装
+
+目前，要在`Fabric`使用`Optifine`需要通过**方式四**安装。
 
 ### 方式三：官网安装
 
@@ -37,7 +51,7 @@
 
 ### 方式四：Optifine 与 Mod 加载器共存
 
-从[Optifine官网](https://www.optifine.net/)上下载的jar文件本身也可作为Mod被加载，可以用 Java 运行下载的文件并导出 Mod 版本。Mod 安装具体方法见 [Mod安装教程](auto-installing.html)
+从[Optifine官网](https://www.optifine.net/)上下载的jar文件本身也可作为Mod被加载，可以用 Java 运行下载的文件并导出 Mod 版本。Mod 安装具体方法见 [Mod安装教程](auto-installing.md)
 
 注意：
 
