@@ -14,6 +14,8 @@
 
 选择完合适的版本之后就可以点击右下角的`安装`继续进行安装。
 
+目前，要在`Fabric`使用`Optifine`需要通过**方式四**安装。
+
 ### 方式二：修改/升级已安装版本
 
 在对应的游戏版本管理页面，点击`自动安装`，你会看到有个`Optifine`的选项。
@@ -22,7 +24,7 @@
 
 点开之后选择合适的版本然后等待安装完成即可。
 
-若HMCL下载列表中没有Optifine或不是最新版
+**若HMCL下载列表中没有Optifine或不是最新版**
 
 则在[Optifine官网](https://optifine.net/downloads)上下载合适版本的Optifine（下载完应为`OptiFine_<游戏版本>_<Optifine版本>.jar`）。
 
