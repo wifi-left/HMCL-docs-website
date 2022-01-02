@@ -20,7 +20,7 @@ HMCL 需要服务器管理员额外提供一个 HTTP 服务器（只需要能提
 
 ![](/assets/img/docs/serverpack/1-1.png)
 
-填写整合包信息，整合包下载链接前缀如何填写请看下文，你也可以先填别的（必须是个链接，比如 http://www.baidu.com），该项在整合包导出后可以修改
+填写整合包信息，整合包下载链接前缀如何填写请看下文，你也可以先填别的（必须是个链接，比如 http://www.baidu.com)，该项在整合包导出后可以修改
 
 ![](/assets/img/docs/serverpack/1-2.png)
 
@@ -51,3 +51,5 @@ HMCL 需要服务器管理员额外提供一个 HTTP 服务器（只需要能提
 **在玩家启动游戏时，HMCL会拉取 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录下的 server-manifest.json 进行交验，若服务器上的 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录的 server-manifest.json 不一致时，则将进行整合包更新操作**
 
 **要是想更新整合包，重复第三步的流程即可**
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
