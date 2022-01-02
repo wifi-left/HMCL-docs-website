@@ -180,3 +180,5 @@ HMCL 此时不会关闭界面。
 ## 存在问题
 
 **请到 [GitHub](https://github.com/huanghongxun/HMCL) 进行反馈！**
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
