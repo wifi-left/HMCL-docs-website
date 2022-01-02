@@ -9,4 +9,6 @@ toc: true
 > 本文由 huanghongxun 编写。
 
 如果你认为你有能力为 HMCL 添加高质量的帮助文档，或希望修改错误，你可以到 https://github.com/huanghongxun/HMCL-docs 仓库中发 Pull Request，或者提 Issue。
-或者你可以进入我们的 [Discord](https://discord.gg/jVvC7HfM6U)、[开黑啦](https://kaihei.co/Kx7n3t)群以向 HMCL 反馈。
+或者你可以进入我们的 [Discord](https://discord.gg/jVvC7HfM6U)、[开黑啦](https://kaihei.co/Kx7n3t)或通过[赞助](https://afdian.net/@huanghongxun)的方式进入HMCL QQ群以向 HMCL 反馈。
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
