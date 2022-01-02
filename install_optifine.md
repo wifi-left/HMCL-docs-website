@@ -70,3 +70,5 @@
 ![shaders_setting](assets/img/docs/install_optifine/shaders_setting.png)
 
 **注意：光影对于电脑配置的要求比较高，如果开了光影之后出现游戏画面很卡的情况，请升级电脑配置、使用低配置光影或者关闭光影。**
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
