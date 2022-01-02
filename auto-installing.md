@@ -68,3 +68,5 @@ HMCL内置了Curseforge源和 Modrinth源的搜索和下载功能，目前已支
 
 4. 如果无法理解日志内容，那么请将/.minecraft/crash-reports和/.minecraft/log文件夹打包发给其他人寻求帮助。
 
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
