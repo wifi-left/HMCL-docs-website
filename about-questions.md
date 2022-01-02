@@ -94,3 +94,5 @@ mods 是基于 mod_loader 的一个从文件上更改游戏的内容的外置组
 > 在HMCL中进入 设置-->全局游戏设置-->Java路径--->选择自定义并选择你 jdk 目录下的/bin/java（Windows用户推荐选择/bin/javaw）后确定（一般HMCL会正常识别到 Java 的路劲，无需折腾）
 
 __若出现任何的游戏崩溃问题请尝试返回默认的 Java__
+
+_[返回 HMCL 新手导航 页面](index-help.md)_
