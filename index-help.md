@@ -50,6 +50,8 @@ You can also submit your suggestions here.
    他将告诉你如何制作 HMCL 能够识别的数据包（Datapacks）。
 
 2. [制作服务端自动更新整合包](serverpack.md)
+   
+   [手把手详细版本_制作服务端自动更新整合包](serverpack2.md)
 
    他将告诉你如何制作会自动更新的整合包。
 
