@@ -4,7 +4,7 @@
 
 - **文章原作者：[hy黑影](https://www.mcbbs.net/home.php?mod=space&uid=3051111)**
 - **转载：Zkitfly**
-- **部分内容稍作打磨**
+- **部分内容进行了稍作打磨**
 - **本教程转载至https://www.mcbbs.net/thread-1103864-1-1.html?action=printable**
 - **标题: [综合]使用HMCL配置服务器客户端自动更新——再也不用担心玩家不会更新客户端了**
 
