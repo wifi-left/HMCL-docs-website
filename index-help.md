@@ -59,7 +59,7 @@ You can also submit your suggestions here.
 
    他将告诉你如何设置默认的验证服务器。
 
-4.[整合包自带 Java 教程](modpack_in_java.md)
+4. [整合包自带 Java 教程](modpack_in_java.md)
    
    在整合包中自带Java环境，免去玩家安装Java。
 
