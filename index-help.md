@@ -16,9 +16,9 @@ You can also submit your suggestions here.
 
 ## HMCL **问题集合**
 
-1. [新手问题](about-questions.md)
+1. [**新手问题**](about-questions.md)
 
-2. [多人联机帮助](multiplayer.md)
+2. [**多人联机帮助**](multiplayer.md)
 
 ## HMCL 教程 / 帮助
 
