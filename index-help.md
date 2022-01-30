@@ -68,12 +68,14 @@ You can also submit your suggestions here.
 
 1. [**为 HMCL 做出贡献**](contribution.md)
 
-2. [**HMCL GitHub 地址**](http://github.com/huanghongxun/HMCL)
+2. [**HMCL 镜像源**](https://gitee.com/Glavo/HMCL-Update#hello-minecraft-launcher-%E6%9B%B4%E6%96%B0%E5%88%86%E5%8F%91)
 
-3. [**HMCL 帮助文档 GitHub 地址**](http://github.com/huanghongxun/HMCL-docs)
+3. [**HMCL GitHub 地址**](http://github.com/huanghongxun/HMCL)
 
-4. [**HMCL 官网**](http://hmcl.huangyuhui.net)
+4. [**HMCL 帮助文档 GitHub 地址**](http://github.com/huanghongxun/HMCL-docs)
 
-5. [**HMCL CI**](https://ci.huangyuhui.net/)
+5. [**HMCL 官网**](http://hmcl.huangyuhui.net)
 
-6. [**HMCL 镜像源**](https://github.com/Glavo/HMCL-Update)
+6. [**HMCL CI**](https://ci.huangyuhui.net/)
+
+6. 
