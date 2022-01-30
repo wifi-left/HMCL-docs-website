@@ -25,4 +25,4 @@ HMCL 联机模块使用了第三方软件 [Cato](https://noin.cn/71.html)，所�
 2. [NAT 网络类型为差怎么办？](multiplayer-symmetric.md)
 
 3. 
-<iframe src="http://player.bilibili.com/player.html?aid=24931813&cid=42084760&page=1" scrolling="no" width="800px" height="600px" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=423237257&bvid=BV1g3411Y7rC&cid=486577662&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
