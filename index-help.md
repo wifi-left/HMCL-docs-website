@@ -14,12 +14,6 @@ You can also submit your suggestions here.
 
 您也可以在这里提交您的建议。
 
-## HMCL **问题集合**
-
-1. [**新手问题**](about-questions.md)
-
-2. [**多人联机帮助**](multiplayer.md)
-
 ## HMCL 教程 / 帮助
 
 ### **对于使用者**
