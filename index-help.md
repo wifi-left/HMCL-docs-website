@@ -24,23 +24,27 @@ You can also submit your suggestions here.
 
 ### **对于使用者**
 
-1. [**版本隔离**](Global-version-isolation.md)
+1. [**新手问题**](about-questions.md)
 
-   它可以帮助你更好的分离地图、模组等。
+   他将告诉你最基本的问题与回答
 
-2. [**多人联机帮助**](multiplayer.md)
+2. [**版本隔离**](Global-version-isolation.md)
+
+   他可以帮助你更好的分离地图、模组等。
+
+3. [**多人联机帮助**](multiplayer.md)
 
    他将告诉你如何进行多人联机，以及一些问题。
 
-3. [**设置离线皮肤**](offline-skin.md)
+4. [**设置离线皮肤**](offline-skin.md)
 
    他将告诉你如何设置一个属于自己的离线皮肤。
 
-4. [**HMCL 的自动安装使用教程**](auto-installing.md)
+5. [**HMCL 的自动安装使用教程**](auto-installing.md)
 
-   它将告诉你如何用 HMCL 安装 Forge、Fabric、Fabric API、LiteLoader、Optifine 以及 模组 等。
+   他将告诉你如何用 HMCL 安装 Forge、Fabric、Fabric API、LiteLoader、Optifine 以及 模组 等。
 
-5. [**安装 Optifine / 光影**](install_optifine.md)
+6. [**安装 Optifine / 光影**](install_optifine.md)
 
    他将告诉你如何安装 Optifine 来使用光影。
 
