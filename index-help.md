@@ -77,5 +77,3 @@ You can also submit your suggestions here.
 5. [**HMCL 官网**](http://hmcl.huangyuhui.net)
 
 6. [**HMCL CI**](https://ci.huangyuhui.net/)
-
-6. 
