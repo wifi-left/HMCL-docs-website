@@ -6,7 +6,7 @@
 
 - 你可以使用`Ctrl+f`来方便查找你的答案
 
-- **在阅读本文章前，请先确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-stable?label=稳定版" style="zoom:130%;" /> 或 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他。**
+- **在阅读本文章前，请先确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他。**
 - 如果你想为此文档做贡献，你可以在 [Github]() 提交Pull requests。其中，图片要存放在仓库中的 Github 仓库中的 /assets/img/docs/multiplayer-faq 目录中放置图片
 
 ## 1 多人联机会话意外退出，退出码 2
