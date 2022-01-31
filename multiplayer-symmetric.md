@@ -40,7 +40,8 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 ![windows-nat](/assets/img/docs/multiplayer-symmetric/windows-nat.png)
 
-微软提供的网络配置解决方案：[Windows 10 上的 NAT 类型显示“Teredo 无法获得资格” | Xbox Support](https://support.xbox.com/zh-CN/help/Hardware-Network/connect-network/troubleshoot-party-chat)
+微软提供的网络配置解决方案：
+[Windows 10 上的 NAT 类型显示“Teredo 无法获得资格” | Xbox Support](https://support.xbox.com/zh-CN/help/Hardware-Network/connect-network/troubleshoot-party-chat)
 
 ### 家用路由器配置改善
 
@@ -116,15 +117,15 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 ### 使用中继模式
 
-如果上述方法均无法解决问题，你可以考虑使用 HMCL 提供的中继模式。
+如果上述方法均无法解决问题，你可以考虑使用 HMCL 提供的桥接服务。
 
 ![relay](/assets/img/docs/multiplayer-symmetric/relay.png)
 
-HMCL 要求你申请静态 Token 之后才能启用 cato 的中继模式。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法参见 [🎟️Cato – 10 月 1.1 版本体验活动 🐾 这里 (noin.cn)](https://noin.cn/circle/386.html)。noin.cn 要求申请静态 Token 的用户付费或完成指定的任务以获得静态 Token。
+HMCL 要求你申请凭证之后才能启用 cato 的桥接服务。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体方法加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)询问群主或管理员获取凭证
 
 ### 其他可配置方法
 
-> 此处参考了 https://www.right.com.cn/forum/thread-199299-1-1.html
+> 此处参考了 [https://www.right.com.cn/forum/thread-199299-1-1.html](https://www.right.com.cn/forum/thread-199299-1-1.html)
 
 HMCL 的 NAT 类型测试不一定准，你还可以尝试上面链接中提供的 `NAT类型测试.zip` 程序来测试你的 NAT 类型。
 
