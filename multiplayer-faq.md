@@ -1,13 +1,18 @@
-# HMCL 多人联机常见问题
+# **HMCL 多人联机常见问题**
 
 # **必读**
 
-- 本文将定时收集HMCL 多人联机常见问题与回答，若你在这里没有发现你想要的回答，欢迎前往[此视频](https://www.bilibili.com/video/BV1g3411Y7rC)下的评论区进行提问，我会定期前往回答，然后将问题上传至此，也欢迎加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)进行问题讨论！
-
+- **[Github](https://zkitefly.github.io/hmcld/multiplayer-faq.html)** · **[Gitee](https://gitee.com/bleaker/hmclw/blob/master/multiplayer-faq.md)**
+- 本文档将定时收集HMCL 多人联机常见问题与回答，若你在这里没有发现你想要的回答，欢迎前往[此视频](https://www.bilibili.com/video/BV1g3411Y7rC)下的评论区进行提问，我会定期前往回答，然后将问题上传至此，也欢迎加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)进行问题讨论！
 - 你可以使用`Ctrl+f`来方便查找你的答案
-
 - **在阅读本文章前，请先确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他。**
-- 如果你想为此文档做贡献，你可以在 [Github]() 提交 Pull requests 。其中，图片要存放在 Github 仓库中的 `/assets/img/docs/multiplayer-faq` 目录中
+- 如果你想为此文档做贡献，你可以在 [**Github**]() 提交 Pull requests 。其中，图片要存放在 Github 仓库中的 `/assets/img/docs/multiplayer-faq` 目录中
+- **在[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)提问本文章没有的问题时，为了更快的解决问题，请提供以下必要信息：**
+  **1.您所使用的 cato 渠道是 HMCL，**
+  **2.您所使用的 HMCL 版本**？
+  **3.您是在此问题发生前进行了哪些操作？**
+  **4.您认为大概是什么问题，**
+  **5.您是否已经阅读过本文档，并按文档内容尝试解决？（是/否）**
 
 ## **1 多人联机会话意外退出，退出码 2**
 
@@ -137,11 +142,33 @@
 
 ![](/assets/img/docs/multiplayer-faq/9.jpg)
 
-## 9 **X**
+## 9 **在与他人联机时总是在每个整点或半点断开连接**
 
 ### 问题
 
-X
+在与他人联机时总是在每个整点或半点断开连接
+
+### 回答
+
+**此行为是正常现象，因为鉴权服务器在每个整点或半点自动刷新一次，导致你被中断连接，重新创建房间即可**
+
+**若忍受不了每个整点或半点断开连接，你可以考虑申请凭证开启桥接服务（询问[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)中的群主或管理员获得凭证）**
+
+## 10 **如何获得凭证**
+
+### 问题
+
+因为 HMCL 联机的一些网络问题，不得不使用凭证。但不知道在哪里购买凭证
+
+### 回答
+
+**加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)，然后在群聊中 `@Q群管家 凭证 ` 获取详细方法 或 `@梦游泪世/邀请码20rmb一个（买码私聊) `询问获得凭证或邀请码**
+
+## 11 **X**
+
+### 问题
+
+**X**
 
 ![]()
 
