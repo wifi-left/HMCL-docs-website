@@ -2,7 +2,7 @@
 
 # **必读**
 
-- **[Github](https://zkitefly.github.io/hmcld/multiplayer-faq.html)** · **[Gitee](https://gitee.com/bleaker/hmclw/blob/master/multiplayer-faq.md)**
+- **[Github](https://zkitefly.github.io/hmcld/multiplayer-faq.html)** · **[Gitee](https://gitee.com/bleaker/hmcld/blob/master/multiplayer-faq.md)**
 
 - 本文档将定时收集HMCL 多人联机常见问题与回答，若你在这里没有发现你想要的回答，欢迎前往[此视频](https://www.bilibili.com/video/BV1g3411Y7rC)下的评论区进行提问，我会定期前往回答，然后将问题上传至此，也欢迎加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)进行问题讨论！
 
@@ -45,6 +45,12 @@
 ![](/assets/img/docs/multiplayer-faq/2.png)
 
 ### 回答
+
+**请检查 HMCL检测出来的 NAT 等级不是 差或极差 ，因为可能就是因为他而无法进行联机。**
+
+**在 NAT 等级为 极差 环境下你可能无法进行联机**
+
+**在 NAT 等级为 差 下你大概率无法创建房间，但你能进入 NAT 等级为 好 的房间**
 
 **由于你当前使用 HMCL 多人联机的人数过多，鉴权服务器没有足够的资源来使用联机**
 
