@@ -5,7 +5,7 @@
 - **[Github](https://zkitefly.github.io/hmcld/multiplayer-faq.html)** · **[Gitee](https://gitee.com/bleaker/hmclw/blob/master/multiplayer-faq.md)**
 - 本文档将定时收集HMCL 多人联机常见问题与回答，若你在这里没有发现你想要的回答，欢迎前往[此视频](https://www.bilibili.com/video/BV1g3411Y7rC)下的评论区进行提问，我会定期前往回答，然后将问题上传至此，也欢迎加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)进行问题讨论！
 - 你可以使用`Ctrl+f`来方便查找你的答案
-- **在阅读本文章前，请先确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他。**
+- **在阅读本文章前，请先确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://gitee.com/Glavo/HMCL-Update/blob/main/README.md#%E6%B5%8B%E8%AF%95%E7%89%88-)下载他。**
 - 如果你想为此文档做贡献，你可以在 [**Github**]() 提交 Pull requests 。其中，图片要存放在 Github 仓库中的 `/assets/img/docs/multiplayer-faq` 目录中
 - **在[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)提问本文章没有的问题时，为了更快的解决问题，请提供以下必要信息：**
   **1.您所使用的 cato 渠道是 HMCL，**
@@ -24,7 +24,7 @@
 
 ### 回答
 
-**请确认 HMCL 版本是否为  <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他。**
+**请确认 HMCL 版本是否为  <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://gitee.com/Glavo/HMCL-Update/blob/main/README.md#%E6%B5%8B%E8%AF%95%E7%89%88-)下载他。**
 
 ## **2 无法连接多人联机服务，你可以在多人联机页面的反馈中反馈问题**
 
@@ -42,7 +42,7 @@
 
 **你可以尝试询问[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)中的群主或管理员鉴权服务器是否正常工作**
 
-**若你没有足够的耐心等待，你可以考虑申请凭证开启桥接服务（询问[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)中的群主或管理员获得凭证）**
+**若你没有足够的耐心等待，你可以考虑申请凭证开启桥接服务**（[**获得凭证的方法**](#10 如何获得凭证)）
 
 ## **3 加入房间失败，无法与对方建立链接**
 
@@ -70,7 +70,7 @@
 
 ### 回答
 
-**请确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://zkitefly.github.io/hmclw/download.html)下载他**
+**请确认 HMCL 版本是否为 <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label=开发版" style="zoom: 130%;" />，若不是，请在 [此处](https://gitee.com/Glavo/HMCL-Update/blob/main/README.md#%E6%B5%8B%E8%AF%95%E7%89%88-)下载他**
 
 **请检查你的电脑是否能正常上网、关闭防火墙、关闭杀毒软件或添加 cato （HMCL多人联机核心）程序为白名单**
 
@@ -86,7 +86,9 @@
 
 ### 回答
 
-**请关闭 HMCL ，然后再次启动，此时你进入多人联机页面就会下载 cato （HMCL多人联机核心）程序了**
+**请关闭 HMCL ，然后再次启动，此时你进入多人联机页面就会下载  cato （HMCL多人联机核心）程序了**
+
+**若不行，请检查你正在使用的杀毒软件是否将 cato 程序拦截，如果是，请关闭关闭他或将 cato 程序加入白名单**
 
 ## **6 创建联机房间失败，你的凭证可能无法正常工作，你可以使用空凭证再试**
 
@@ -152,7 +154,7 @@
 
 **此行为是正常现象，因为鉴权服务器在每个整点或半点自动刷新一次，导致你被中断连接，重新创建房间即可**
 
-**若忍受不了每个整点或半点断开连接，你可以考虑申请凭证开启桥接服务（询问[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)中的群主或管理员获得凭证）**
+**若忍受不了每个整点或半点断开连接，你可以考虑申请凭证开启桥接服务**（[**获得凭证的方法**](#10 如何获得凭证)）
 
 ## 10 **如何获得凭证**
 
@@ -163,6 +165,16 @@
 ### 回答
 
 **加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)，然后在群聊中 `@Q群管家 凭证 ` 获取详细方法 或 `@梦游泪世/邀请码20rmb一个（买码私聊) `询问获得凭证或邀请码**
+
+**注意事项**
+
+**1.房主和加入方必须使用凭证联机（因为凭证网络与非凭证网路是不互通的），且每个人只能使用一个凭证**
+
+**2.若出现使用凭证的情况下仍然无法使用，请查阅此问题->** [# **6 创建联机房间失败，你的凭证可能无法正常工作，你可以使用空凭证再试**](# **6 创建联机房间失败，你的凭证可能无法正常工作，你可以使用空凭证再试**)
+
+**3.请确保房主和加入方的 HMCL 版本是一样的！**
+
+
 
 ## 11 **X**
 
