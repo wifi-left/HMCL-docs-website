@@ -53,11 +53,11 @@
 
 - 图1：
 
-  ![](/assets/img/docs/serverpack2/2.6.jpg)
+  ![](/assets/img/docs/serverpack2/2.7.jpg)
 
 - 图2：
-
-  ![](/assets/img/docs/serverpack2/2.7.jpg)
+  
+  ![](/assets/img/docs/serverpack2/2.6.jpg)
 
 - **按照图中所写添加，懒的话按照图1，想要安全的话按照图2**
 
