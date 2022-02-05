@@ -58,7 +58,7 @@ HMCL 多人联机常见问题
 >
 > ***在 NAT 类型为 差 下你大概率无法创建房间，但你能进入 NAT 类型为 好 的房间***
 
-**有关 如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)**
+**有关 如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)** *（若访问困难，可访问[此链接](https://gitee.com/bleaker/hmcld/blob/master/multiplayer-symmetric.md)*）
 
 ------
 
@@ -88,7 +88,7 @@ HMCL 多人联机常见问题
 >
 > ***在 NAT 类型为 差 下你大概率无法创建房间，但你能进入 NAT 类型为 好 的房间***
 
-**有关如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)**
+**有关如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)** *（若访问困难，可访问[此链接](https://gitee.com/bleaker/hmcld/blob/master/multiplayer-symmetric.md)*
 
 **你可以尝试使用凭证开启桥接服务获得稳定体验**  （[**获得凭证的方法**](#10-如何获得凭证)）
 
@@ -248,7 +248,7 @@ HMCL 多人联机常见问题
 
 > **若提示检测失败，但仍旧可以正常联机功能，请忽略此提示，正常使用即可**
 >
-> **若提示检测失败，且无法进行使用联机功能，建议阅读此文章 [如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html) 或使用凭证开启桥接模式，因为桥接模式不受 NAT 类型的影响**（[**获得凭证的方法**](#10-如何获得凭证)）
+> **若提示检测失败，且无法进行使用联机功能，建议阅读此文章 [如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html) *（若访问困难，可访问[此链接](https://gitee.com/bleaker/hmcld/blob/master/multiplayer-symmetric.md)*） 或使用凭证开启桥接模式，因为桥接模式不受 NAT 类型的影响**（[**获得凭证的方法**](#10-如何获得凭证)）
 
 **若使用凭证仍旧无法解决，请加入 [QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD) 获得帮助**
 
