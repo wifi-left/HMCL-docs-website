@@ -1,6 +1,6 @@
 > 由 wifi-left 进行整理
 
-# HMCL 新手导航
+# ![](/icon/png)HMCL 新手导航
 
 ## 注意 Notice
 
