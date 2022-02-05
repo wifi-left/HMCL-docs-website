@@ -6,6 +6,8 @@ categories: HMCL
 toc: true
 ---
 
+# ![](/icon/png)
+
 > 本文由 wifi-left 编写。
 
 ## 注意
