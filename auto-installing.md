@@ -6,7 +6,7 @@ categories: HMCL
 toc: true
 ---
 
-# ![](/icon/png)
+# ![](/icon.png)
 
 > 本文由 asdqp233 编写。
 
