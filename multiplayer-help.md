@@ -6,6 +6,8 @@ categories: HMCL
 toc: true
 ---
 
+#  <img src="icon.png" style="zoom:20%;" />HMCL 联机教程
+
 > 本文由 wifi-left 编写。
 
 ## 注意
