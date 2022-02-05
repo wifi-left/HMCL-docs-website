@@ -6,6 +6,8 @@ categories: HMCL
 toc: true
 ---
 
+# ![](/icon/png)
+
 > 本文由 huanghongxun 编写。
 
 ## 背景
