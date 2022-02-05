@@ -54,7 +54,7 @@
 >
 > ***在 NAT 等级为 差 下你大概率无法创建房间，但你能进入 NAT 等级为 好 的房间***
 
-**有关 NAT 等级影响 HMCL 多人联机相关问题，请查阅**[**此文章**](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)
+**有关 如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)**
 
 ------
 
@@ -84,7 +84,7 @@
 >
 > ***在 NAT 等级为 差 下你大概率无法创建房间，但你能进入 NAT 等级为 好 的房间***
 
-**有关 NAT 等级影响 HMCL 多人联机的更多回答，请查阅**[**此文章**](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)
+**有关 如何改善 NAT 类型为差的网络？ 您可以参考这篇文章[如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html)**
 
 **你可以尝试使用凭证开启桥接服务获得稳定体验**  （[**获得凭证的方法**](#10-如何获得凭证)）
 
