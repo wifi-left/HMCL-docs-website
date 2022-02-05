@@ -6,6 +6,8 @@ categories: HMCL
 toc: true
 ---
 
+# ![](/icon/png)
+
 > 本文由 huanghongxun 编写。
 
 本指南只介绍如何制作一个 HMCL 可导入的数据包压缩包。
