@@ -1,4 +1,4 @@
-# 光影和Optifine
+# ![](/icon/png)光影和Optifine
 
 ## 安装Optifine
 
