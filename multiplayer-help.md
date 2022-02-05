@@ -6,7 +6,7 @@ categories: HMCL
 toc: true
 ---
 
-#  <img src="icon.png" />HMCL 联机教程
+#  ![](/icon.png) HMCL 联机教程
 
 > 本文由 wifi-left 编写。
 
