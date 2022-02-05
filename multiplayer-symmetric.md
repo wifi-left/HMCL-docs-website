@@ -128,7 +128,9 @@ HMCL 要求你申请凭证之后才能启用 cato 的桥接服务。cato 中继�
 
 > 此处参考了 [https://www.right.com.cn/forum/thread-199299-1-1.html](https://www.right.com.cn/forum/thread-199299-1-1.html)
 
-HMCL 的 NAT 类型测试不一定准，你还可以尝试上面链接中提供的 `NAT类型测试.zip` 程序来测试你的 NAT 类型。
+HMCL 的 NAT 类型测试不一定准，你还可以尝试上面链接中提供的 `NAT类型测试.zip` 程序来测试你的 NAT 类型，按照链接中的文章操作。
+
+注意：若`NAT类型测试.zip`中的 `NAT type`输出的是`UdpBlocked`，请将`STUN server`的链接替换成`stun.miwifi.com`
 
 1. 如果你的路由器有启用 "FullCone"、"STUN"、"TURN"、"ICE"、"UPnP" 等功能，你可以启用。
 2. 如果你的路由器没有以上的设置项，你还可以设置 DMZ 主机。（请参考上文的 DMZ 主机设置）
