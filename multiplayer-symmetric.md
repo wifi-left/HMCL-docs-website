@@ -122,7 +122,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 ![relay](/assets/img/docs/multiplayer-symmetric/relay.png)
 
-HMCL 要求你申请凭证之后才能启用 cato 的桥接服务。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体方法加入[QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD)询问群主或管理员获取凭证
+HMCL 要求你申请凭证之后才能启用 cato 的桥接服务。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法请参考[此文章](https://github.com/zkitefly/hmcld/blob/main/multiplayer-faq.md#10-%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E5%87%AD%E8%AF%81)
 
 ### 其他可配置方法
 
@@ -138,6 +138,6 @@ HMCL 的 NAT 类型测试不一定准，你还可以尝试上面链接中提供�
    1. Function Discovery Provider Host
    2. Function Discovery Resource Publication
    3. SSDP Dicovery
-4. 如果你的电脑是 Windows 操作系统，你还需要放行需要提升 NAT 类型的软件（HMCL）。如果你不会放行，你可以直接关闭 Windows 防火墙。（请参考上文的防火墙设置教程）
+4. 如果你的电脑是 Windows 操作系统，你还需要放行需要提升 NAT 类型的软件（HMCL和cato）。如果你不会放行，你可以直接关闭 Windows 防火墙。（请参考上文的防火墙设置教程）
 5. 如果你能向运营商要到外网 IP，这是最好的，没有公网 IP 的话，你可以联系运营商客服索要公网 IP。
    - 中国联通已经取消分配公网 IPv4 地址，你可以索要公网 IPv6 地址。
