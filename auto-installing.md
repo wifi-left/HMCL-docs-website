@@ -6,6 +6,8 @@ categories: HMCL
 toc: true
 ---
 
+# ![](/icon/png)
+
 > 本文由 asdqp233 编写。
 
 ## 安装Mod加载器
