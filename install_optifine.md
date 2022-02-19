@@ -1,3 +1,10 @@
+---
+title:  "安装 Optifine 和 光影"
+date:   2021-10-09 23:18:02 +0800
+categories: HMCL
+toc: true
+---
+
 # 光影和Optifine
 
 ## 安装Optifine

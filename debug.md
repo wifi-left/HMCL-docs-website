@@ -1,4 +1,14 @@
-__仅列出部分容易出现的报错，如有其他典型日志可以提交至 LIPiston@outlook.com__
+---
+title:  "排错指南"
+date:   2021-10-09 23:18:02 +0800
+categories: HMCL
+toc: true
+---
+
+> 本文由 LIPiston 进行编写
+
+# 一些话
+仅列出部分容易出现的报错，__如有其他典型日志可以提交至 [LIPiston@outlook.com](mailto:LIPiston@outlook.com)__
 
 # 排错指南
 首先你需要具备一定的判断能力  

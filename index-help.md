@@ -1,3 +1,10 @@
+---
+title:  "HMCL 文档首页"
+date:   2021-10-09 23:18:02 +0800
+categories: HMCL
+toc: true
+---
+
 > 由 wifi-left 进行整理
 
 # HMCL 新手导航
