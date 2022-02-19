@@ -5,7 +5,7 @@ categories: HMCL
 toc: true
 ---
 
-> 本文由 LIPiston 进行编写
+> 本文由 LIPiston 进行编写，wifi_left 进行修改
 
 # 一些话
 仅列出部分容易出现的报错，__如有其他典型日志可以提交至 [LIPiston@outlook.com](mailto:LIPiston@outlook.com)__
@@ -36,8 +36,25 @@ toc: true
 所以我们需要去下载前置 fabricapi
 
 ### 模组冲突
+#### 一般情况
 ![3](./assets/img/docs/debug/fabric2.png)
 
 我们现在发现有两个 mod 在报错
 由第一项我们可以得知 optfabric 与 sodium 有冲突
 所以选择性的去掉一项即可
+
+#### 特殊情况
+有些 mod 本来是兼容的，但是在预加载阶段显示不兼容。或者进行设置后可以启动游戏。
+##### Optifabric + lithium
+这俩玩意儿原本是可以一起加载的，但需要进行一些设置。
+步骤：
+1. 打开 mods 文件夹
+2. 用压缩方式打开 lithium.jar，编辑 fabric.mod.json 文件：
+   找到 `"breaks"`
+   删除 `"optifabric": "*"` 并保存。（可以直接删除 breaks 项）
+3. 同样方式打开 optifabric.jar，编辑 fabric.mod.json 文件：
+   找到 `"breaks"`
+   删除 `"lithium": "*"` 并保存。（可以直接删除 breaks 项）
+4. 打开 config 文件夹（.minecraft/config)，编辑（若不存在请创建）lithium.properties 文件：
+   `mixin.world.chunk_access=false`
+   保存。然后就能启动游戏了。
