@@ -6,4 +6,4 @@ Hello Minecraft! Launcher 帮助文档仓库网站版本
 
 # 开始阅读
 
-[**HMCL 使用导航**](index-help.md)
+[HMCL 使用导航](index-help.md)
