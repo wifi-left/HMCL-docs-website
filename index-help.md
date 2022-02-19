@@ -42,6 +42,10 @@ You can also submit your suggestions here.
 5. [安装 Optifine / 光影](install_optifine.md)
 
    他将告诉你如何安装 Optifine 来使用光影。
+   
+6. [排错指南](debug.md)
+
+   他将告诉你游戏中一些简单报错的修复方法。
 
 ### 对于开发者
 
