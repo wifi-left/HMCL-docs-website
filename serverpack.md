@@ -6,7 +6,7 @@ categories: HMCL
 toc: true
 ---
 
-**若你看不太懂此文章，你可以看看这篇文章->**[**使用HMCL启动器配置服务器客户端自动更新**](serverpack2.md)
+**若你看不太懂此文章，可以看看这篇文章->**[**使用HMCL启动器配置服务器客户端自动更新**](serverpack2.md)
 
 > 本文由 huanghongxun 编写。
 
