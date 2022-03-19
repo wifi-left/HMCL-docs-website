@@ -173,9 +173,9 @@
             -moz-user-select: none;
             user-select: none;
             /* line-height: */
-            font-size:32px;
-            line-height:80px;
-            margin:0 0 0 0;
+            font-size: 32px;
+            line-height: 80px;
+            margin: 0 0 0 0;
         }
 
         #icon {
@@ -192,13 +192,35 @@
             border: none;
             border-radius: 0%;
             transition: 0.5s;
+            
         }
 
         #icon:hover,
         #icon:active {
             transform: scale(1.1);
         }
+        #share-btn {
+            position: absolute;
+            right: 80px;
+            top: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url("./system/res/img/share.png");
+            background-color: rgba(0, 0, 0, 0);
+            background-size: 80% 80%;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 0%;
+            transition: 0.5s;
+        }
 
+        #share-btn:hover,
+        #share-btn:active {
+            transform: scale(1.1);
+        }
         #setting-btn {
             position: absolute;
             right: 10px;
@@ -213,6 +235,9 @@
             border: none;
             border-radius: 0%;
             transition: 0.5s;
+            background-size: 80% 80%;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         #setting-btn:hover,
@@ -287,7 +312,7 @@
             height: 100%;
             width: 100%;
             display: inline-block;
-            height:60px;
+            height: 60px;
             padding: 0 0 0 0;
             line-height: 60px;
         }
@@ -438,6 +463,48 @@
         .top-xie::before {
             content: " / ";
         }
+        #share{
+            top: 120px;
+            left:0;
+            width:100%;
+            height:calc(100% - 120px);
+            position: fixed;
+            z-index: 100%;
+            /* background: #333; */
+        }
+        #sharetext{
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            display: none;
+            position: fixed;
+            width:100%;
+            max-width:800px;
+            height:auto;
+            background-color: rgb(80, 80, 80);
+            border: 2px solid rgb(27, 27, 27);
+            z-index: 1000;
+            text-align:center;
+            padding:8px 8px 8px 8px;
+        }
+        .copyable{
+            /* user-select: text; */
+            display: inline-block;
+            width:90%;
+            height:40px;
+            line-height: 40px;
+            font-size:18px;
+            color:white;
+            user-select: text;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+        }
+        #shareurl{
+            border:2px solid white;
+            background-color:black;
+        }
     </style>
 </head>
 
@@ -463,10 +530,12 @@
 
         <div id="headtitle">
             <button id="icon" onclick="showmenu()">
-                <button id="setting-btn" onclick="changePage('settings.html')">
-
-                </button>
-                <h1 id="title2">GA Wiki</h1>
+            </button>
+            <button id="setting-btn" onclick="changePage('settings.html')">
+            </button>
+            <button id="share-btn" onclick="showshare()">
+            </button>
+            <h1 id="title2">GA Wiki</h1>
         </div>
 
         <div id="bigcontent">
@@ -476,6 +545,14 @@
                 <div id="top-back">
                 </div>
             </div>
+                <div id="sharetext" class="center-title">
+                    <h1 style="color:white;font-size:48px;border:none;">分享链接</p>
+                    <span id="shareurl" class="copyable">Test</span>
+                    <br/><br/>
+                    <button id="cw3jkwed" class="closemsg" onclick="hide_share();">
+                        关闭
+                    </button>
+                </div>
             <div id="textarea">
 
             </div>
@@ -487,7 +564,9 @@
 <script>
     const origin = location.origin + location.pathname;
     // 获取当前url
-
+    function hide_share(){
+        $("#sharetext").fadeOut(500);
+    }
     function GetLocationParam(param) {
         var request = {
             QueryString: function (val) {
@@ -532,6 +611,11 @@
     }
     if (nowapage == null || nowapage == '') nowapage = "index";
 
+    function showshare(){
+        $("#shareurl").text(origin+"?pg="+nowapage+(ishtml?".html":".md"));
+        $("#sharetext").fadeIn(500);
+    }
+
     var menuJson = "";
     var NowMenu = "";
     flushBackup();
@@ -572,6 +656,7 @@
         gQuery("#ulfa").html(tmp);
     }
     function changePage(page) {
+        hide_share();
         nowapage = page;
         ishtml = false;
         flushBackup();
@@ -672,6 +757,7 @@
     var dis = false;
 
     function showmenu(close) {
+        hide_share();
         if (close == true) {
             gQuery("#menu").fadeOut(200);
             hidemsg(document.getElementById("cw3jkwej"));
@@ -819,7 +905,7 @@
                     if (link.href.substr(0, origin.length) == origin) {
                         // 如果是内链
                         link.setAttribute("url", link.href);
-                        link.href = origin+"?pg="+link.href.substr(origin.length);
+                        link.href = origin + "?pg=" + link.href.substr(origin.length);
                         link.addEventListener('click', e => {
                             changePageURL(link.getAttribute("url"))
                             e.preventDefault();
