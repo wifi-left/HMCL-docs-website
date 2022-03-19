@@ -1,5 +1,5 @@
 ---
-title:  "HMCL 文档首页"
+permalink: /help/launcher/multiplayer.html
 date:   2021-10-09 23:18:02 +0800
 categories: HMCL
 toc: true
