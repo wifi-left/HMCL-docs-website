@@ -1,0 +1,110 @@
+<h1>
+    Settings 设置
+</h1>
+<span>
+    设置均保存在浏览器 Cookies 中，您可以随时删除！
+</span>
+<br />
+<h1>基础设置</h1>
+<h2>个性化</h2>
+<p>
+    背景图片：
+</p>
+<select id="selBgImg">
+
+</select>
+
+<p>
+    主题配色：
+</p>
+<select id="isdark">
+
+</select>
+<p>
+    背景颜色（支持rgba）：
+</p>
+<style>
+
+</style>
+<input class="input" id="inputcolor" oninput="colorchange(this)" />
+<script>
+    document.getElementById("isdark").addEventListener("change", function () {
+        csschange(document.getElementById("isdark"));
+    });
+    function BGChange(objS) {
+        // localStorage.setItem("img", { path: '' });
+        var tochange = objS.options[objS.selectedIndex].value;
+        localStorage.setItem("img", tochange);
+        //Cookies.remove('name')
+        // console.log(tochange, $.cookie.get("img"));
+        co_img = tochange;
+        reloadBG();
+    }
+    function csschange(objS) {
+        // $.cookie.remove("dark");
+        var tochange = objS.options[objS.selectedIndex].value;
+        tochange = tochange.toString().replaceAll("\n", "");
+        localStorage.setItem("dark", tochange);
+        // console.log(tochange);
+        isdark = tochange;
+        reloadBG();
+    }
+    function colorchange(ss) {
+        // $.cookie.remove("color");
+        var tochange = ss.value;
+        localStorage.setItem("color", tochange);
+        co_color = tochange;
+        reloadBG();
+    }
+    document.getElementById("selBgImg").addEventListener("change", function () {
+        BGChange(document.getElementById("selBgImg"));
+    });
+    // function BGChange(objS) {
+    //     $.cookie.remove("img");
+    //     var tochange = objS.options[objS.selectedIndex].value;
+    //     $.cookie.set("img", tochange,{ expires: 365});
+    //     co_img=tochange;
+    //     reloadBG();
+    // }
+    var nbg = co_img;
+    try {
+        //Background Images
+
+        var tmp = "<option value='null'>(不选择图片)</option>";
+        $("#selBgImg").html(tmp);
+        //CSS Looking
+        fetch('./looking.menu').then(res => {
+            if (res.ok) {
+                return res.text();
+            }
+            showError("Error: Network response was not ok.");
+        }).catch(err => {
+            throw new Error(err);
+        }).then(data => {
+            var tmp = "";
+            // console.log(data)
+            var lists = data.toString().replaceAll("\r", "").split("\n");
+            // console.log(lists)
+            for (var i = 0; i < lists.length; i++) {
+
+                var url = "";
+                var b = lists[i].split("~|~");
+                if (b.length >= 2) {
+                    //console.log(isdark,b[1],isdark== b[1]);
+                    if (isdark == b[1]) tmp = tmp + "<option value='" + b[1] + "' selected='selected'>" + b[0] + "</option>";
+                    else tmp = tmp + "<option value='" + b[1] + "'>" + b[0] + "</option>";
+                }
+            }
+            if (tmp == "") {
+                showError("Error: 出现错误！<br/>无法获取列表！");
+            }
+            $("#isdark").html(tmp);
+        });
+    } catch (e) {
+        showError("Error: 出现错误！<br/>" + e);
+        console.log("Error:" + e);
+    }
+    if (co_color == undefined) document.getElementById("inputcolor").value = "rgba(255,255,255,0.5)";
+    else document.getElementById("inputcolor").value = co_color;
+
+</script>

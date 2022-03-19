@@ -1,0 +1,60 @@
+.input{
+    border-bottom:3px solid red;
+    color:blue;
+    background-color: aliceblue;
+    font-size:18px;
+    font-family:"consolas";
+    height:40px;
+    font-size:22px;
+    width:calc(100% - 4em);
+}
+.line-code {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 27, 27);
+    padding: 4px 4px 4px 4px;
+    font-family: 'Consolas';
+    line-height:34px;
+    margin: 4px 4px 4px 4px;
+}
+.hljs-params{
+    color: #333;
+}
+.hljs-params-title{
+    color:blue;
+}
+
+.hljs-number{
+    color:rgb(252, 160, 22);
+}
+#textarea a{
+    line-height:32px;
+    margin-top:4px;
+    margin-bottom:8px;
+    margin-left:4px;
+}
+
+img {
+    display: block;
+    border: none;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+blockquote{
+    margin: 0 0 0 0;
+    line-height:40px;
+    height: auto;
+    font-size:18px;
+    text-indent: 16px;
+    border-left: 4px solid rgb(124, 124, 124);
+    /* color:rgb(124, 124, 124); */
+}
+
+blockquote p{
+    color: rgb(170, 170, 170);
+}
+
+#title2 {
+    user-select: none;
+}

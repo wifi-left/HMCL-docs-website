@@ -1,11 +1,11 @@
-# HMCL-docs
-Hello Minecraft! Launcher 帮助文档仓库网站版本
-部分文档来源自 [huanghongxun/HMCL-docs](https://github.com/huanghongxun/HMCL-docs)
+# 🌍 Minecraft 我的世界 🏞 粉丝玩家制作的 命令、游戏帮助文档
 
-已标明作者！
+本仓库为 **Minecraft 粉丝** 所制作的文档。
 
-# 开始阅读
-[HMCL 使用导航](index-help.md)
+如果您对此感兴趣，欢迎提交您的文档！
 
-# 做出贡献
-请查看：[做出贡献 & 贡献要求](contribution.md)
+若发现错误，欢迎提出问题或纠正。
+
+# 提交文章
+
+请将仓库复制下来后或直接在 GitHub 上将文件提交到 `"pages"` 文件夹

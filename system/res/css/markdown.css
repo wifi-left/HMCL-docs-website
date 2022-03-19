@@ -1,0 +1,33 @@
+p {
+    font-size: 18px;
+    font-family: '微软雅黑';
+    color: black;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(108, 216, 171);
+    color: rgb(108, 216, 171);
+    font-size: 18px;
+}
+
+a:active, a:hover {
+    border-bottom: 2px solid rgb(74, 161, 125);
+    color: rgb(74, 161, 125);
+}
+
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+code.hljs {
+    padding: 3px 5px
+}
+
+img {
+    display: block;
+}
+

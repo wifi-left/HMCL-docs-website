@@ -1,0 +1,65 @@
+p {
+    font-size: 18px;
+    font-family: '微软雅黑';
+    color: black;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(108, 216, 171);
+    color: rgb(108, 216, 171);
+    font-size: 18px;
+}
+
+a:active, a:hover {
+    border-bottom: 2px solid rgb(74, 161, 125);
+    color: rgb(74, 161, 125);
+}
+
+img {
+    background-color: rgba(0, 0, 0, 0);
+    /* border: 1px solid rgb(108, 216, 171); */
+}
+
+code {
+    font-family: 'Consolas';
+    font-size: 18px;
+}
+
+code span {
+    color: #333;
+}
+
+pre {
+    border: 2px solid rgb(57, 148, 15);
+}
+
+input {
+    background: none;
+    border: none;
+}
+
+.line-code {
+    border: 2px solid rgb(57, 148, 15);
+    color: rgb(108, 216, 171);
+    background-color: rgb(27, 27, 27);
+    padding: 4px 4px 4px 4px;
+    font-family: 'Consolas';
+    line-height:34px;
+}
+
+.input {
+    border-bottom: 3px solid rgb(140, 111, 245);
+    height: 40px;
+    font-size: 22px;
+    width: calc(100% - 4em);
+    color: rgb(0, 206, 27);
+}
+
+.input:active, .input:focus {
+    border-bottom: 3px solid rgb(160, 41, 184);
+}
+.hljs-number{
+    color:rgb(252, 160, 22);
+}

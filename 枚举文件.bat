@@ -1,0 +1,1 @@
+githubmd "F:\Websites\HMCL-docs-website\pages" "*.md" "markdownlist.json"

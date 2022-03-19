@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Gamom Wiki - Not Found</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            transition: 100ms;
+        }
+
+        html,
+        body {
+            padding: none;
+            user-select: none;
+            transition: 100ms;
+        }
+
+        .center-title {
+            /* color: white; */
+            font-family: "console";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+
+        .top-center {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .alc {
+            text-align: center;
+        }
+
+        #error {
+            text-align: left;
+        }
+
+        #erbg {
+            width: 100%;
+            height: 35%;
+            max-height: 330px;
+            min-height: 150px;
+            background-color: rgba(255, 255, 255, 0.466);
+        }
+
+        #backg {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(120deg, rgb(163, 219, 33), rgb(216, 230, 24));
+        }
+
+        .iline {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="backg">
+        <div class="top-center" id="erbg">
+
+        </div>
+        <div class="center-title" id="error">
+            <div class='ilne'>
+                <h1>Error Code : 404 (#5)</h1>
+                <p style="font-size:18px;">您的访问方式不对？</p>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        document.getElementById("backg").display="none";
+        var path = location.pathname;
+        if (path.substr(0, "/content".length) === "/content") {
+            fetch('http://' + location.host + "/system/gettext.php?pnm=" + path.substr("/content".length+1))
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (myJson) {
+                    if(myJson.stat!=false){
+                        location.href='http://' + location.host + "/content/?pg="+path.substr("/content".length+1);
+                    }
+                });
+            fetch('http://' + location.host + "/system/gettext.php?pnm=" + path.substr("/content".length+1)+"&html=yes")
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (myJson) {
+                    if(myJson.stat!=false){
+                        location.href='http://' + location.host + "/content/?pg="+path.substr("/content".length+1)+"&html=yes";
+                        document.getElementById("backg").display="inline-block";
+                    }
+                });
+
+        }else
+        document.getElementById("backg").display="inline-block";
+    </script>
+</body>
+
+</html>

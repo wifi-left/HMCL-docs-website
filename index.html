@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8">
+    <title id="title">Gamom Wiki - Welcome</title>
+    <link rel="stylesheet" href="./system/res/css/markdown-all.css">
+    <link rel="stylesheet" id="darkcss" href="./system/res/css/markdown-default.css">
+    <link rel="stylesheet" href="./system/res/js/highlight/styles/base16/github.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="./system/res/js/gquery.js"></script>
+    <script src="./system/res/js/showdown.js"></script>
+    <script src="./system/res/js/highlight/highlight.min.js"></script>
+    <style>
+        html,
+        body {
+            padding: none;
+            overflow: hidden;
+            overflow-x: hidden;
+        }
+
+        * {
+            transition: 500ms;
+        }
+
+        .center-title {
+            /* color: white; */
+            font-family: "console";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+
+        .top-center {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .alc {
+            text-align: center;
+        }
+
+        #error {
+            text-align: left;
+        }
+
+        #erbg {
+            width: 100%;
+            height: 35%;
+            max-height: 330px;
+            min-height: 150px;
+            background-color: rgba(63, 218, 132, 0.8);
+            z-index: 500;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        input {
+
+            outline: none;
+            background: none;
+            font-size: 18px;
+        }
+
+        #backg {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: azure;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .iline {
+            display: inline-block;
+        }
+
+        .button-start {
+            outline: none;
+            border: none;
+            background: none;
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .button-start:hover,
+        .button-start:active {
+            outline: none;
+            border: none;
+            background: none;
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+            font-size: 18px;
+
+            transform: scale(1.1);
+        }
+
+        #bigcontent {
+            width: calc(100%);
+            height: calc(100% - 44px);
+            position: absolute;
+            left: 0;
+            top: 80px;
+            overflow: auto;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow-x: hidden;
+        }
+
+        #textarea {
+            overflow-x: hidden;
+            width: calc(100% - 4em);
+            height: calc(100% - 0px - 108px);
+            position: absolute;
+            left: 0;
+            top: 40px;
+            padding: 2em 2em 2em 2em;
+            padding-top: 1em;
+            overflow: auto;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .closemsg {
+            position: absolute;
+            right: 10%;
+            bottom: 10px;
+            outline: none;
+            border: 4px solid #333;
+            background-color: azure;
+            font-size: 14px;
+            width: 80px;
+            height: 34px;
+            cursor: pointer;
+        }
+
+        .closemsg:hover,
+        .closemsg:active {
+            transform: scale(1.05);
+        }
+
+        #headtitle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #333;
+            z-index: 100;
+
+        }
+
+        #title2 {
+            position: absolute;
+            left: 80px;
+            color: aliceblue;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            /* line-height: */
+            font-size:32px;
+            line-height:80px;
+            margin:0 0 0 0;
+        }
+
+        #icon {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url("../favicon.ico");
+            background-color: rgba(0, 0, 0, 0);
+            background-size: 100% 100%;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 0%;
+            transition: 0.5s;
+        }
+
+        #icon:hover,
+        #icon:active {
+            transform: scale(1.1);
+        }
+
+        #setting-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url("./system/res/img/setting.png");
+            background-color: rgba(0, 0, 0, 0);
+            background-size: 100% 100%;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 0%;
+            transition: 0.5s;
+        }
+
+        #setting-btn:hover,
+        #setting-btn:active {
+            transform: scale(1.1);
+        }
+
+        #menu {
+            overflow-x: hidden;
+            position: absolute;
+            top: 80px;
+            padding: 6px 6px 6px 6px;
+            width: calc(100% - 12px);
+            height: calc(100% - 12px - 80px);
+            left: 0;
+            background-color: #333;
+            z-index: 300;
+            max-width: calc(100% - 12px);
+            --move: 100%;
+        }
+
+        @media screen and (min-width: 1001px) {
+            #menu {
+                --move: 400px;
+                position: absolute;
+                top: 80px;
+                padding: 10px 10px 10px 10px;
+                width: calc(100% - 20px);
+                height: calc(100% - 20px - 80px);
+                left: 0;
+                background-color: #333;
+                z-index: 300;
+                max-width: 600px;
+
+            }
+        }
+
+
+        #ulfa {
+            list-style: none;
+            position: absolute;
+            top: 64px;
+            width: calc(100% - 40px);
+            left: 0px;
+        }
+
+        #ulfa li {
+            font-size: 18px;
+            width: calc(100% - 40px);
+            color: white;
+            height: 60px;
+            line-height: 60px;
+            text-indent: 12px;
+            -webkit-user-select: none;
+            user-select: none;
+            border-radius: 8px;
+            position: relative;
+            top: 8px;
+            overflow: hidden;
+        }
+
+        #ulfa li:hover {
+
+            color: white;
+            background-color: rgb(33, 33, 33);
+        }
+
+        #ulfa a {
+            text-indent: 20px;
+            border: none;
+            color: white;
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            padding: 0 0 0 0;
+            line-height: 1px;
+        }
+
+        #ulfa a:hover,
+        #ulfa a:active {
+            border: none;
+            color: white;
+        }
+
+        #searchInput {
+            position: absolute;
+            left: 60px;
+            height: 60px;
+            top: 20px;
+            width: calc(100% - 120px);
+            color: white;
+            font-size: 22px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        select {
+            height: 40px;
+            outline: none;
+            border: 1px solid black;
+            font-size: 22px;
+        }
+
+        option {
+            height: 30px;
+        }
+
+        #loadingPage {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            z-index: 400;
+            background-color: royalblue;
+            color: white;
+            width: 100%;
+            height: 100%;
+        }
+
+        #loadinglogo {
+            width: 48px;
+            border-radius: 50%;
+            height: 48px;
+            background-image: linear-gradient(120deg, rgb(154, 191, 196), rgb(233, 126, 236));
+            animation-name: circle;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes circle {
+            0% {
+                transform: translate(-600%, -600%);
+            }
+
+            25% {
+                transform: translate(600%, -600%);
+            }
+
+            50% {
+                transform: translate(600%, 600%);
+            }
+
+            75% {
+                transform: translate(-600%, 600%);
+            }
+
+            100% {
+                transform: translate(-600%, -600%);
+            }
+
+        }
+
+        .hr {
+            border-bottom: 1px solid white;
+            height: 16px;
+            width: calc(100% - 40px);
+        }
+
+        #top-back {
+            color: white;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            display: inline-block;
+            text-indent: 0;
+
+        }
+
+        .top-back {
+            cursor: pointer;
+            display: inline-block;
+            width: auto;
+
+            line-height: 28px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            color: rgb(34, 214, 219);
+            text-indent: 0px;
+
+            font-weight: bold;
+            border: none;
+        }
+
+        .top-back:hover {
+            color: rgb(43, 197, 247);
+            border: none;
+            /* border-bottom:2px solid seagreen; */
+        }
+
+        .top-tip::-webkit-scrollbar {
+            height: 4px;
+            border-radius: 4px;
+            background: rgba(63, 218, 132, 0);
+        }
+
+        .top-tip::-webkit-scrollbar-thumb {
+            height: 4px;
+            border-radius: 4px;
+            background: rgb(13, 13, 13);
+        }
+
+        .top-tip {
+            white-space: nowrap;
+            overflow-x: auto;
+            z-index: 100;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            line-height: 32px;
+            height: 36px;
+            width: calc(100% - 24px);
+            background-color: rgba(67, 67, 67, 1);
+            border: none;
+            position: absolute;
+            top: 0px;
+            left: 0;
+            padding-left: 16px;
+            padding-top: 6px;
+            padding-right: 8px;
+        }
+
+        .top-xie {
+            width: 8px;
+
+        }
+
+        .top-xie::before {
+            content: " / ";
+        }
+    </style>
+</head>
+
+<body id="body" onresize="$GAWIKI$_resize()">
+    <div id="menu" style="overflow-y:auto;">
+        <input id="searchInput" type="text" oninput="$GAWIKI$_search(this.value)" placeholder="键入文本以搜索 GA Wiki" />
+        <ul id="ulfa">
+            <li>
+                加载中...
+            </li>
+        </ul>
+    </div>
+    <div id="backg">
+        <div class="top-center" id="erbg" style="display:none;">
+
+            <div class="center-title">
+                <h1 id="error-msg">1</h1>
+            </div>
+            <button id="cw3jkwej" class="closemsg" onclick="hidemsg(this);">
+                关闭
+            </button>
+        </div>
+
+        <div id="headtitle">
+            <button id="icon" onclick="showmenu()">
+                <button id="setting-btn" onclick="changePage('settings.html')">
+
+                </button>
+                <h1 id="title2">GA Wiki</h1>
+        </div>
+
+        <div id="bigcontent">
+            <div class="top-tip">
+                <a target='_self' class="top-back" id="back-up">
+                </a>
+                <div id="top-back">
+                </div>
+            </div>
+            <div id="textarea">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script>
+    const origin = location.origin + location.pathname;
+    // 获取当前url
+
+    function GetLocationParam(param) {
+        var request = {
+            QueryString: function (val) {
+                var uri = window.location.search;
+                var re = new RegExp("" + val + "=([^&?]*)", "ig");
+                return ((uri.match(re)) ? (decodeURI(uri.match(re)[0].substr(val.length + 1))) : '');
+            }
+        }
+        return request.QueryString(param);
+    }
+    // $.cookie.raw = true;
+    let WebsiteName = "GA Wiki";
+
+    let searchInputGA = document.getElementById("searchInput");
+    document.getElementById("title2").innerHTML = WebsiteName;
+    var BLeft = "0px";
+    $GAWIKI$_resize()
+
+    function $GAWIKI$_resize() {
+        typeof resize === "function" ? resize() : false;
+        $GAWIKI$_search(searchInputGA.value);
+        var maxWidth = document.body.clientWidth - 0;
+        if (maxWidth >= 784)
+            BLeft = "416px";
+        else
+            BLeft = "0px";
+    }
+
+
+    var nowapage = GetLocationParam('pg');
+    var ishtml = false;
+    //                 else echo $_GET["pg"]; ?>";
+    // var ishtml = <?php if (empty($_GET["html"])) echo "false";
+    //                 else echo $_GET["html"] == "yes" ? "true" : "false"; ?>;
+    if (nowapage.substr(nowapage.length - 3, 3) == ".md") {
+        nowapage = nowapage.substr(0, nowapage.length - 3);
+        ishtml = false;
+        //console.log(nowapage)
+    } else if (nowapage.substr(nowapage.length - 5, 5) == ".html") {
+        nowapage = nowapage.substr(0, nowapage.length - 5);
+        ishtml = true;
+    }
+    if (nowapage == null || nowapage == '') nowapage = "index";
+
+    var menuJson = "";
+    var NowMenu = "";
+    flushBackup();
+    function transl(key) {
+        try {
+            return key.toString().replaceAll("#", "").replaceAll("*", "");
+
+        } catch (e) {
+            console.log(e);
+        }
+        return key;
+    }
+    function $GAWIKI$_search(key) {
+        if (key === "") {
+            flushmenu();
+            return;
+        }
+        var tmp = "";
+        var lists = menuJson;
+        for (var i = 0; i < lists.length; i++) {
+
+            var url = "";
+            var b = lists[i];
+
+
+            var filename = b.path;
+            var disname = b.name;
+            // var ishtml = b[2];
+            if (filename.search(key) != -1 || disname.search(key) != -1 || key.search(filename) != -1 || key.search(disname) != -1) {
+                url = filename;
+                tmp = tmp + "<li><a target='_self' onclick=\"changePage('" + url + "')\">" + transl(disname) + "</a></li>";
+            }
+
+        }
+        if (tmp == "") {
+            tmp = "<li>未搜索到任何有用信息。</li>"
+        }
+        gQuery("#ulfa").html(tmp);
+    }
+    function changePage(page) {
+        nowapage = page;
+        ishtml = false;
+        flushBackup();
+        console.log("The page changed to " + page);
+        showmenu(true);
+        if (nowapage.substr(nowapage.length - 3, 3) == ".md") {
+            nowapage = nowapage.substr(0, nowapage.length - 3);
+            ishtml = false;
+            //console.log(nowapage)
+        } else if (nowapage.substr(nowapage.length - 5, 5) == ".html") {
+            nowapage = nowapage.substr(0, nowapage.length - 5);
+            ishtml = true;
+        }
+        document.getElementById("title").innerHTML = "Gamom Wiki - " + getname(page);
+        gQuery('#textarea').fadeOut(500);
+
+        setTimeout(reloadContent, 500);
+
+        /*  */
+    }
+    function getname(pagename) {
+        if (pagename == "settings.html" || pagename == 'settings') {
+            return "设置";
+        }
+        if (pagename == "index.html" || pagename == 'index') {
+            return "首页";
+        }
+        for (var i = 0; i < menuJson.length; i++) {
+            if (pagename == menuJson[i].path) {
+                return transl(menuJson[i].name);
+            }
+        }
+        return pagename;
+    }
+    function flushBackup() {
+        var lasturlEle = document.getElementById("back-up");
+        lasturlEle.innerHTML = WebsiteName;
+        lasturlEle.onclick = () => {
+            changePage("index.md");
+        }
+        var toptipEle = document.getElementById("top-back");
+
+        var arrs = nowapage.split("/");
+        var tmp = "";
+        var as1 = "";
+        for (var i = 0; i < arrs.length; i++) {
+            if (tmp === "") tmp = arrs[i];
+            else tmp += "/" + arrs[i];
+            if (i == arrs.length - 2) {
+                NowMenu = tmp;
+
+            }
+            as1 = as1 + "<span class='top-xie'></span>" + "<a target='_self' class='top-back' onclick=\"changePage('" + tmp + "')\">" + getname(tmp) + "</a>"
+        }
+
+        toptipEle.innerHTML = as1;
+    }
+
+    function flushmenu() {
+        try {
+            fetch('./pages/markdownlist.json').then(res => {
+                if (res.ok) {
+                    return res.text();
+                }
+                showError("Error: 出现错误！<br/>" + 'Network response was not ok.');
+            }).catch(err => {
+                showError("Error: 出现错误！<br/>" + err);
+            }).then(data => {
+                var tmp = "";
+                menuJson = JSON.parse(data.toString());
+                var lists = menuJson;
+                for (var i = 0; i < lists.length; i++) {
+
+                    var url = "";
+                    //console.log(lists[i],lists[i]=="-");
+                    var filename = lists[i].path;
+                    var disname = lists[i].name;
+                    var ishtml = false;
+                    url = filename;
+                    tmp = tmp + "<li><a target='_self' onclick=\"changePage('" + url + "')\">" + transl(disname) + "</a></li>";
+                }
+                gQuery("#ulfa").html(tmp);
+            });
+
+        } catch (e) {
+            showError("Error: 出现错误！<br/>" + e);
+            console.log("Error:" + e);
+        }
+        try {
+
+        } catch (e) {
+            showError("Error: 出现错误！<br/>" + e);
+            console.log("Error:" + e);
+        }
+    }
+    gQuery("#menu").hide();
+    flushmenu();
+    var dis = false;
+
+    function showmenu(close) {
+        if (close == true) {
+            gQuery("#menu").fadeOut(200);
+            hidemsg(document.getElementById("cw3jkwej"));
+            dis = false;
+            return;
+        }
+        dis = !dis;
+        if (dis) {
+            // document.getElementById("bigcontent").style.left = BLeft;
+            // document.getElementById("bigcontent").style.width = "calc(100% - " + BLeft + ")";
+            gQuery("#menu").fadeIn(200);
+
+        } else {
+            // document.getElementById("bigcontent").style.left = "0px";
+            // document.getElementById("bigcontent").style.width = "calc(100%)";
+
+            gQuery("#menu").fadeOut(200);
+
+        }
+
+        hidemsg(document.getElementById("cw3jkwej"));
+    };
+    var co_img = localStorage.getItem("img");
+    var co_color = localStorage.getItem("color");
+    var isdark = localStorage.getItem("dark");
+
+    // function showloading() {
+    //     gQuery("#loadingPage").fadeIn(50);
+    //     GQUERY("#loadinglogo").css("animation-iteration-count", "infinite");
+    // }
+
+    // function hideloading() {
+    //     GQUERY("#loadingPage").fadeOut(300);
+    //     setTimeout(() => {
+    //         gQuery("#loadinglogo").css("animation-iteration-count", "0");
+
+    //     }, 300)
+
+
+    // }
+    if (isdark == undefined) isdark = "default";
+
+    function reloadBG() {
+        if (co_img == undefined) co_img = "";
+        co_img = co_img.toString().replaceAll("\n", "");
+        document.getElementById("darkcss").href = "./system/res/css/markdown-" + (isdark) + ".css";
+        // document.getElementById("backg").style.backgroundImage = "url('./bgimg/" + co_img + "')";
+        document.getElementById("textarea").style.backgroundColor = "" + co_color + "";
+
+    }
+    reloadBG();
+    hljs.highlightAll();
+    var converter = new showdown.Converter();
+    function reloadContent() {
+        try {
+            if (nowapage == null || nowapage == '') nowapage = "index";
+            fetch('./pages/' + nowapage + "" + (ishtml ? ".html" : ".md")).then(res => {
+                if (res.ok) {
+                    return res.text();
+                }
+                // showError("Error: 出现错误！<br/>" + 'Network response was not ok.');
+                showCo("<h1>无法找到该页面。或该页面出错。</h1>");
+            }).catch(err => {
+                showError("Error: 出现错误！<br/>" + err);
+            }).then(data => {
+                if (!ishtml)
+                    html = converter.makeHtml(data);
+                else html = data;
+                showCo(html);
+                gQuery('#textarea').fadeIn();
+
+                reloadCodes();
+            })
+
+        } catch (e) {
+
+            showError("Error: 出现错误！<br/>" + e);
+            console.log("Error:" + e);
+            $('#textarea').fadeIn();
+            showCo("<h1>无法显示该页。</h1><span>请联系管理员！</span>")
+        }
+
+    }
+    reloadContent();
+    document.getElementById("title").innerHTML = "Gamom Wiki - " + getname(nowapage);
+
+    function reloadCodes() {
+        hljs.highlightAll();
+        var viswe = document.getElementsByTagName("code");
+        for (var i = 0; i < viswe.length; i++) {
+            if (viswe[i].className == "")
+                viswe[i].innerHTML = "<span class='line-code'>" + viswe[i].innerHTML + "</span>";
+        }
+    }
+
+    function hidemsg(a) {
+        a.style.display = "none";
+        gQuery("#erbg").fadeOut(300);
+    }
+
+    function showError(msg) {
+        gQuery(".closemsg").show();
+        gQuery("#erbg").fadeIn();
+        gQuery("#error-msg").html(msg);
+    }
+    function changePageURL(URL) {
+        // console.log();
+        changePage(URL.substr(origin.length))
+    }
+    function showCo(html) {
+        gQuery("#textarea").html(html);
+        var regDetectJs = /<script(.|\n)*?>(.|\n|\r\n)*?<\/script>/ig;
+        var jsContained = html.match(regDetectJs);
+
+        // 第二步：如果包含js，则一段一段的取出js再加载执行
+        if (jsContained) {
+            // 分段取出js正则
+            var regGetJS = /<script(.|\n)*?>((.|\n|\r\n)*)?<\/script>/im;
+
+            // 按顺序分段执行js
+            var jsNums = jsContained.length;
+            for (var i = 0; i < jsNums; i++) {
+                var jsSection = jsContained[i].match(regGetJS);
+
+                if (jsSection[2]) {
+                    if (window.execScript) {
+                        // 给IE的特殊待遇
+                        window.execScript(jsSection[2]);
+                    } else {
+                        // 给其他大部分浏览器用的
+                        window.eval(jsSection[2]);
+                    }
+                }
+            }
+        }
+        //blockquote
+
+        // var ele = eles[i];
+        try {
+            var links = document.querySelectorAll('#textarea a[href]');
+            links.forEach(link => {
+                // console.log("sss")
+
+                if (link.href != "" && link.href.substr(0, 1) != "#") {
+                    if (link.href.substr(0, origin.length) == origin) {
+                        // 如果是内链
+                        link.setAttribute("url", link.href);
+                        link.href = origin+"?pg="+link.href.substr(origin.length);
+                        link.addEventListener('click', e => {
+                            changePageURL(link.getAttribute("url"))
+                            e.preventDefault();
+                            // 阻止默认方式打开链接
+                        });
+                    } else {
+                        link.target = "_blank"
+                    }// 让他新标签打开
+
+                } else {
+                }
+
+            });
+        } catch (e) {
+            console.log(e)
+        }
+        var imgs = document.querySelectorAll('#textarea img[src]');
+        imgs.forEach(img => {
+            if (img.src.substr(0, origin.length) == origin) {
+                // console.log(img.src)
+                img.src = "./pages/" + img.src.substr(origin.length);
+            }
+        });
+    }
+    // var eles = document.getElementsByTagName("img");
+
+
+
+    try {
+        // document.addEventListener('gesturestart', function(event) {
+        //     event.preventDefault()
+        // })
+    } catch (e) {
+        console.log("error:" + e);
+    }
+</script>
+
+</html>

@@ -1,0 +1,91 @@
+a, b, em, ul, li, p, h1, h2, h3, h4, h5, h6, input, button {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    font-family: '微软雅黑';
+    color: white;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(108, 216, 171);
+    color: rgb(108, 216, 171);
+    font-size: 18px;
+}
+
+a:active, a:hover {
+    border-bottom: 2px solid rgb(74, 161, 125);
+    color: rgb(74, 161, 125);
+}
+
+img {
+    background-color: rgba(0, 0, 0, 0);
+    /* border: 1px solid rgb(108, 216, 171); */
+}
+
+code {
+    font-family: 'Consolas';
+    font-size: 18px;
+    color: #333;
+    /* background-color:rgb(145, 229, 194); */
+}
+
+pre {
+    border: 2px solid rgb(57, 148, 15);
+}
+
+.hljs {
+    background-color: rgb(48 42 42);
+}
+
+span {
+    color: white;
+}
+
+.line-code {
+    border: 2px solid rgb(57, 148, 15);
+    color: rgb(108, 216, 171);
+    background-color: rgb(27, 27, 27);
+    padding: 4px 4px 4px 4px;
+    line-height: 34px;
+    font-family: 'Consolas';
+}
+
+select {
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+input {
+    background: none;
+    border: none;
+}
+
+.input {
+    border-bottom: 3px solid rgb(108, 216, 171);
+    height: 40px;
+    font-size: 22px;
+    width: calc(100% - 4em);
+    color: rgb(252, 160, 22);
+}
+
+.input:active, .input:focus {
+    border-bottom: 3px solid rgb(41, 184, 124);
+    height: 40px;
+    font-size: 22px;
+    width: calc(100% - 4em);
+}
+
+.hljs-number {
+    color: rgb(252, 160, 22);
+}
+
+#bigcontent {
+    background-color: #333;
+}
