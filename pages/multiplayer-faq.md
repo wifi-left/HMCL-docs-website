@@ -10,7 +10,7 @@
 
 - 在阅读本文章前，请先确认 HMCL 版本是否为**开发版** <img src="https://img.shields.io/maven-central/v/org.glavo.hmcl/hmcl-dev?label" style="zoom: 130%;" />，若不是，请在 [此处](https://gitee.com/Glavo/HMCL-Update/blob/main/README.md#%E6%B5%8B%E8%AF%95%E7%89%88-)下载他。
 
-- 如果你想为此文档做贡献，你可以在 [**Github**]() 提交 Pull requests 。其中，图片要存放在 Github 仓库中的 `/pages/assets/img/docs/multiplayer-faq` 目录中
+- 如果你想为此文档做贡献，你可以在 [**Github**]() 提交 Pull requests 。其中，图片要存放在 Github 仓库中的 `/assets/img/docs/multiplayer-faq` 目录中
 
 - 在 [QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD) 提问本文章没有的问题时，为了更快的解决问题，**请提供以下必要信息：**
 
@@ -30,7 +30,7 @@
 
 在使用多人联机时出现下面图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/1.png)
+![](/assets/img/docs/multiplayer-faq/1.png)
 
 ### 回答
 
@@ -42,7 +42,7 @@
 
 在使用多人联机时出现下面图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/2.png)
+![](/assets/img/docs/multiplayer-faq/2.png)
 
 ### 回答
 
@@ -68,7 +68,7 @@
 
 在对方加入房间时出现下面图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/3.jpg)
+![](/assets/img/docs/multiplayer-faq/3.jpg)
 
 ### 回答
 
@@ -103,7 +103,7 @@
 
 进入 HMCL 多人联机页面时出现下方图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/4.png)
+![](/assets/img/docs/multiplayer-faq/4.png)
 
 ### 回答
 
@@ -121,7 +121,7 @@
 
 在创建房间时发生如下图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/5.png)
+![](/assets/img/docs/multiplayer-faq/5.png)
 
 ### 回答
 
@@ -137,7 +137,7 @@
 
 使用凭证开启桥接服务，然后创建房间时发生下方图片问题↓
 
-![](/pages/assets/img/docs/multiplayer-faq/6.png)
+![](/assets/img/docs/multiplayer-faq/6.png)
 
 ### 回答
 
@@ -165,9 +165,9 @@
 
 创建房间时检测不到游戏端口，上面的小横条一直在动，如图↓
 
-![](/pages/assets/img/docs/multiplayer-faq/7.png)
+![](/assets/img/docs/multiplayer-faq/7.png)
 
-![](/pages/assets/img/docs/multiplayer-faq/8.png)
+![](/assets/img/docs/multiplayer-faq/8.png)
 
 ### 回答
 
@@ -197,7 +197,7 @@
 
 **注意！加入方若使用离线账号，那么必须点击如在下方图片↓显示的 HMCL 多人联机房间按钮进入！否则无法进入**
 
-![](/pages/assets/img/docs/multiplayer-faq/9.jpg)
+![](/assets/img/docs/multiplayer-faq/9.jpg)
 
 ## 9 在与他人联机时总是在每个整点或半点断开连接
 
@@ -205,7 +205,7 @@
 
 在与他人联机时总是在每个整点或半点断开连接，如图↓
 
-![](/pages/assets/img/docs/multiplayer-faq/10.png)
+![](/assets/img/docs/multiplayer-faq/10.png)
 
 ### 回答
 
