@@ -569,7 +569,13 @@
 
 </body>
 <script>
-    const origin = location.origin + location.pathname;
+    var arrs = location.origin + location.pathname;
+    arrs = arrs.split("/");
+    var tmp = "";
+    for (var i = 0; i < arrs.length - 1; i++) {
+        tmp += arrs[i] + "/";
+    }
+    const origin = tmp;
     // 获取当前url
     function hide_share() {
         $("#sharetext").fadeOut(500);
@@ -937,7 +943,7 @@
                 if (img.src.substr(0, origin.length) == origin) {
                     // console.log(img.src)
                     img.src = "./pages/" + img.src.substr(origin.length);
-                } else if(img.src.substr(0, location.origin.length) == location.origin){
+                } else if (img.src.substr(0, location.origin.length) == location.origin) {
                     img.src = "./pages/" + img.src.substr(location.origin.length);
 
                 }
