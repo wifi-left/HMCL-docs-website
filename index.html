@@ -192,13 +192,14 @@
             border: none;
             border-radius: 0%;
             transition: 0.5s;
-            
+
         }
 
         #icon:hover,
         #icon:active {
             transform: scale(1.1);
         }
+
         #share-btn {
             position: absolute;
             right: 80px;
@@ -221,6 +222,7 @@
         #share-btn:active {
             transform: scale(1.1);
         }
+
         #setting-btn {
             position: absolute;
             right: 10px;
@@ -463,47 +465,52 @@
         .top-xie::before {
             content: " / ";
         }
-        #share{
+
+        #share {
             top: 120px;
-            left:0;
-            width:100%;
-            height:calc(100% - 120px);
+            left: 0;
+            width: 100%;
+            height: calc(100% - 120px);
             position: fixed;
             z-index: 100%;
             /* background: #333; */
         }
-        #sharetext{
+
+        #sharetext {
             user-select: none;
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
             display: none;
             position: fixed;
-            width:100%;
-            max-width:800px;
-            height:auto;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
             background-color: rgb(80, 80, 80);
             border: 2px solid rgb(27, 27, 27);
             z-index: 1000;
-            text-align:center;
-            padding:8px 8px 8px 8px;
+            text-align: center;
+            padding: 8px 8px 8px 8px;
         }
-        .copyable{
+
+        .copyable {
             /* user-select: text; */
             display: inline-block;
-            width:90%;
-            height:40px;
+            width: 90%;
             line-height: 40px;
-            font-size:18px;
-            color:white;
-            user-select: text;
-            -webkit-user-select: text;
-            -moz-user-select: text;
-            -ms-user-select: text;
+            font-size: 18px;
+            color: white;
+            user-select: all;
+            -webkit-user-select: all;
+            -moz-user-select: all;
+            -ms-user-select: all;
         }
-        #shareurl{
-            border:2px solid white;
-            background-color:black;
+
+        #shareurl {
+            border: 2px solid white;
+            background-color: black;
+            height: 120px;
+            overflow-y: auto;
         }
     </style>
 </head>
@@ -545,14 +552,14 @@
                 <div id="top-back">
                 </div>
             </div>
-                <div id="sharetext" class="center-title">
-                    <h1 style="color:white;font-size:48px;border:none;">分享链接</p>
+            <div id="sharetext" class="center-title">
+                <h1 style="color:white;font-size:48px;border:none;">分享链接</p>
                     <span id="shareurl" class="copyable">Test</span>
-                    <br/><br/>
+                    <br /><br />
                     <button id="cw3jkwed" class="closemsg" onclick="hide_share();">
                         关闭
                     </button>
-                </div>
+            </div>
             <div id="textarea">
 
             </div>
@@ -564,7 +571,7 @@
 <script>
     const origin = location.origin + location.pathname;
     // 获取当前url
-    function hide_share(){
+    function hide_share() {
         $("#sharetext").fadeOut(500);
     }
     function GetLocationParam(param) {
@@ -611,8 +618,8 @@
     }
     if (nowapage == null || nowapage == '') nowapage = "index";
 
-    function showshare(){
-        $("#shareurl").text(origin+"?pg="+nowapage+(ishtml?".html":".md"));
+    function showshare() {
+        $("#shareurl").text(origin + "?pg=" + nowapage + (ishtml ? ".html" : ".md"));
         $("#sharetext").fadeIn(500);
     }
 
@@ -898,8 +905,9 @@
         // var ele = eles[i];
         try {
             var links = document.querySelectorAll('#textarea a[href]');
+            // console.log("links" + links.length);
             links.forEach(link => {
-                // console.log("sss")
+                // console.log(link.href)
 
                 if (link.href != "" && link.href.substr(0, 1) != "#") {
                     if (link.href.substr(0, origin.length) == origin) {
@@ -924,10 +932,19 @@
         }
         var imgs = document.querySelectorAll('#textarea img[src]');
         imgs.forEach(img => {
-            if (img.src.substr(0, origin.length) == origin) {
-                // console.log(img.src)
-                img.src = "./pages/" + img.src.substr(origin.length);
+            // console.log(img.src)
+            try {
+                if (img.src.substr(0, origin.length) == origin) {
+                    // console.log(img.src)
+                    img.src = "./pages/" + img.src.substr(origin.length);
+                } else if(img.src.substr(0, location.origin.length) == location.origin){
+                    img.src = "./pages/" + img.src.substr(location.origin.length);
+
+                }
+            } catch (e) {
+                console.log(e);
             }
+
         });
     }
     // var eles = document.getElementsByTagName("img");
