@@ -32,7 +32,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 对于 Windows 10/11 用户，我们建议你首先在系统设置 → 网络 →Xbox 网络设置中，等待 Windows 检测网络状态与 NAT 类型，如果检测结果为“这可能会阻止你玩多人游戏”，你的网络类型为差，你可以点击下面的“单击此处获取详细信息”，以尝试微软提供的网络质量改善建议。还可以点击修复按钮以尝试由 Windows 提供的网络修复功能。
 
-![windows-nat](/assets/img/docs/multiplayer-symmetric/windows-nat.png)
+![windows-nat](/pages/assets/img/docs/multiplayer-symmetric/windows-nat.png)
 
 微软提供的网络配置解决方案：[Windows 10 上的 NAT 类型显示“Teredo 无法获得资格” | Xbox Support](https://support.xbox.com/zh-CN/help/Hardware-Network/connect-network/troubleshoot-party-chat)
 
@@ -49,7 +49,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 1. 登录路由器管理页面
 
    首先，你需要在浏览器中打开你的路由器管理页面，路由器管理页面的地址一般为 `192.168.1.1`，或者`192.168.0.1`、`192.168.199.1`。路由器管理地址可以在路由器说明书或者机身上的标签中找到。
-   ![image-20211010151427058](/assets/img/docs/multiplayer-symmetric/login.png)
+   ![image-20211010151427058](/pages/assets/img/docs/multiplayer-symmetric/login.png)
 
    接着，你需要输入路由器管理员账号密码（上图中的水星路由器只有密码）。如果路由器是自家购买的，其管理员账号密码一般你会知道。如果你不知道，你可以询问你的父母。如果还是不知道，且你家路由器是由电信运营商工作人员配置的，你可以询问电信客服。如果还是不知道，你可以通过重置路由器并重新配置拨号上网等相关设置以重置管理员密码（注意，重置路由器会丢失已经配置好的 WiFi 密码、拨号上网账号信息，这些设置信息需要你自己获得。因为重置路由器导致无法继续上网的责任，本文及作者不予承担）。
 
@@ -57,7 +57,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
    设置 DMZ 主机前，你需要将你的电脑绑定静态 IP（若已绑定静态 IP ，你可以跳过本步骤）。
 
-   ![img](/assets/img/docs/multiplayer-symmetric/static-ip.png)
+   ![img](/pages/assets/img/docs/multiplayer-symmetric/static-ip.png)
 
    你需要找到你的路由器的 DHCP 静态 IP 分配设置页面，并添加你的设备。
 
@@ -71,7 +71,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
    最后，你需要在路由器设置中找到 DMZ 主机设置页面。还记得你刚才绑定的静态 IP 地址吗？你需要填写到 DMZ 主机设置页面中：
 
-   ![dmz](/assets/img/docs/multiplayer-symmetric/dmz.png)
+   ![dmz](/pages/assets/img/docs/multiplayer-symmetric/dmz.png)
 
    （这里给填写好的 DMZ 主机 IP 地址打马赛克，是防止你误直接填写了我的设置，你应该填写你所设置的静态 IP）
 
@@ -94,9 +94,9 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 1. 电话联通客服，转人工，转宽带，告诉客服你需要桥接，然后，和技术人员交流后，获得光猫管理员地址以及管理员密码。
    我这里的联通光猫管理地址是 192.168.1.1/cu.html
 2. 接入光猫（可有线插光猫或者无线连接光猫的 wifi——这里不是路由器的 wifi）
-3. 在网页端输入超级权限（或者说管理员权限）地址和密码![modem-login](/assets/img/docs/multiplayer-symmetric/modem-login.jpg)
-4. 点击基本配置（后面的上行、wan 我这是默认是首先显示的，所以不需要点击）![modem-setting](/assets/img/docs/multiplayer-symmetric/modem-setting.jpg)
-5. 选择连接名称包含字段 INTERNET，将其连接模式改桥接![modem-bridge](/assets/img/docs/multiplayer-symmetric/modem-bridge.jpg)
+3. 在网页端输入超级权限（或者说管理员权限）地址和密码![modem-login](/pages/assets/img/docs/multiplayer-symmetric/modem-login.jpg)
+4. 点击基本配置（后面的上行、wan 我这是默认是首先显示的，所以不需要点击）![modem-setting](/pages/assets/img/docs/multiplayer-symmetric/modem-setting.jpg)
+5. 选择连接名称包含字段 INTERNET，将其连接模式改桥接![modem-bridge](/pages/assets/img/docs/multiplayer-symmetric/modem-bridge.jpg)
 6. （可选操作）删除为 TR069 的连接名称——这个貌似是运营商那边的远程管理
    PS:由于我改网之后被运营商限制登录光猫，所以我重置之后把远程管理给删了。读者视情况考虑删除
 
@@ -104,7 +104,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 系统防火墙也可能会阻止外来网络连接，即阻止他人与你直接连接。你可以尝试关闭系统防火墙：
 
-![firewall](/assets/img/docs/multiplayer-symmetric/firewall.jpg)
+![firewall](/pages/assets/img/docs/multiplayer-symmetric/firewall.jpg)
 
 请注意，关闭系统防火墙可能会导致你的电脑处于网络攻击的危险之中，如果关闭防火墙不能改善你的网络状况，我们建议你重新打开防火墙。
 
@@ -112,9 +112,9 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 如果上述方法均无法解决问题，你可以考虑使用 HMCL 提供的中继模式。
 
-![relay](/assets/img/docs/multiplayer-symmetric/relay.png)
+![relay](/pages/assets/img/docs/multiplayer-symmetric/relay.png)
 
-HMCL 要求你申请静态 Token 之后才能启用 cato 的中继模式。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法参见 [🎟️Cato – 10 月 1.1 版本体验活动 🐾 这里 (noin.cn)](https://noin.cn/circle/386.html)。noin.cn 要求申请静态 Token 的用户付费或完成指定的任务以获得静态 Token。
+HMCL 要求你申请静态 Token 之后才能启用 cato 的中继模式。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法参见 [此文档](/pages/multiplayer-faq.md#10-如何获得凭证)。noin.cn 要求申请静态 Token 的用户付费或完成指定的任务以获得静态 Token。
 
 ### 其他可配置方法
 
