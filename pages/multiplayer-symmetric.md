@@ -114,7 +114,7 @@ NAT 类型为差，可能是家用路由器的问题；或者是你的网络运�
 
 ![relay](/assets/img/docs/multiplayer-symmetric/relay.png)
 
-HMCL 要求你申请静态 Token 之后才能启用 cato 的中继模式。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法参见 [🎟️Cato – 10 月 1.1 版本体验活动 🐾 这里 (noin.cn)](https://noin.cn/circle/386.html)。noin.cn 要求申请静态 Token 的用户付费或完成指定的任务以获得静态 Token。
+HMCL 要求你申请静态 Token 之后才能启用 cato 的中继模式。cato 中继模式启用后，NAT 网络类型为差的用户也可以正常使用联机功能。具体申请方法参见 [🎟️Cato – 10 月 1.1 版本体验活动 🐾 这里 (noin.cn)](https://s.mcer.cn/circle/386.html)。noin.cn 要求申请静态 Token 的用户付费或完成指定的任务以获得静态 Token。
 
 ### 其他可配置方法
 
