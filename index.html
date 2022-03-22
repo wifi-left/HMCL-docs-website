@@ -284,21 +284,28 @@
             top: 64px;
             width: calc(100% - 40px);
             left: 0px;
+            margin-bottom: 16px;
+            padding-bottom:32px;
         }
 
         #ulfa li {
             font-size: 18px;
-            width: calc(100% - 40px);
+            width: calc(100% - 42px);
             color: white;
             height: 60px;
             line-height: 60px;
-            text-indent: 12px;
+            /* text-indent: 12px; */
             -webkit-user-select: none;
             user-select: none;
             border-radius: 8px;
             position: relative;
             top: 8px;
-            overflow: hidden;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space: wrap;
+            padding-left: 12px;
+            padding-right:12px;
+            display: inline-block;
         }
 
         #ulfa li:hover {
@@ -313,10 +320,13 @@
             color: white;
             height: 100%;
             width: 100%;
+            padding-left:12px;
+            padding-right:12px;
             display: inline-block;
             height: 60px;
             padding: 0 0 0 0;
             line-height: 60px;
+            /* display: inline-block; */
         }
 
 
