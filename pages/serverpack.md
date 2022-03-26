@@ -2,6 +2,8 @@
 
 > 本文由 huanghongxun 编写。
 
+**这里有一个非常适用新手的文章>**[**手把手详细版本_制作服务端自动更新整合包**](https://zkitefly.github.io/hmcl-d/serverpack2.html)
+
 HMCL 允许服务器管理员借助服务端自动更新整合包来实现自动分发整合包更新，这将大大方便有需要频繁更新游戏客户端 Mod、配置等信息的服务器管理员。
 HMCL 需要服务器管理员额外提供一个 HTTP 服务器（只需要能提供静态文件服务，比如 Apache 和 Nginx 皆可）来提供检查整合包更新并允许 HMCL 下载更新文件。
 
@@ -42,6 +44,6 @@ HMCL 需要服务器管理员额外提供一个 HTTP 服务器（只需要能提
 
 如果你需要更新整合包，那么将新的整合包经过第一步导出新的整合包压缩文件，并解压到类似 http://www.site.com/modpack 文件夹下即可完成新整合包的部署。
 
-**在玩家启动游戏时，HMCL会拉取 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录下的 server-manifest.json 进行交验，若服务器上的 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录的 server-manifest.json 不一致时，则将进行整合包更新操作**
+在玩家启动游戏时，HMCL会拉取 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录下的 文件 进行交验，若服务器上的 http://www.site.com/modpack/server-manifest.json 文件与玩家整合包目录的 文件 校验不一致时，下载覆盖这个校验不一样的文件，所以将进行整合包更新操作，且只要更新的文件不多，服务器不会负载过重的
 
 **要是想更新整合包，重复第三步的流程即可**
