@@ -222,7 +222,7 @@
 
 ### 回答
 
-> 在[Cato快速入门体验包](https://noin.cn/shop/646.html?ref=azAtwBwzp)中往下滑，以游客身份购买，并按照提示获取到社区邀请码注册社区帐号（拥有了社区帐号则无需购买），然后在[此处](https://noin.cn/shop/exchange?ref=azAtwBwzp)以积分的方式购买'月度凭证'或'单日凭证'（积分在刚刚都购买中包含积分、每日签到获得积分、在[此处](https://noin.cn/gold/credit?ref=azAtwBwzp)购买获得 等等......） （温馨提示：凭证里填写的是密钥，而不是序列号）
+> 在[Cato快速入门体验包](https://mcer.cn/shop/116.html)中**往下滑**，以游客身份购买，并按照提示获取到社区邀请码注册社区帐号（拥有了社区帐号则无需购买），然后在[此处](https://mcer.cn/shop/123.html)以积分的方式购买凭证（积分在刚刚都购买中包含积分、每日签到获得积分、在[此处](https://mcer.cn/gold/credit?ref=azAtwBwzp)购买获得 等等......） （温馨提示：凭证里填写的是密钥，而不是序列号）
 >
 > 加入 [QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD) ，然后在群聊中询问获得凭证
 
@@ -266,7 +266,7 @@
 
 > 若提示检测失败，但仍旧可以正常联机功能，请忽略此提示，正常使用即可
 >
-> 若提示检测失败，且无法进行使用联机功能，建议阅读此文章 [如何改善 NAT 类型为差的网络？](https://zkitefly.github.io/hmcld/help/launcher/multiplayer-symmetric.html) （若访问困难，可访问[此链接](https://gitee.com/bleaker/hmcld/blob/master/multiplayer-symmetric.md)）， 或使用凭证开启桥接模式，因为桥接模式不受 NAT 类型的影响（[获得凭证的方法](#10-如何获得凭证)）
+> 若提示检测失败，且无法进行使用联机功能，建议阅读此文章 [如何改善 NAT 类型为差的网络？](multiplayer-symmetric.md) ， 或使用凭证开启桥接模式，因为桥接模式不受 NAT 类型的影响（[获得凭证的方法](#10-如何获得凭证)）
 
 若使用凭证仍旧无法解决，请加入 [QQ群：212927890](https://jq.qq.com/?_wv=1027&k=N4mHT9FD) 获得帮助
 
