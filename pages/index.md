@@ -65,6 +65,14 @@ You can also submit your suggestions here.
    
    在整合包中自带Java环境，免去玩家安装Java。
 
+5. [HMCL 整合包规范](https://github.com/huanghongxun/HMCL/wiki/HMCL-%E6%95%B4%E5%90%88%E5%8C%85%E8%A7%84%E8%8C%83)
+
+   HMCL 整合包规范，供其他启动器开发者自愿支持，也为整合包作者提供手动修改整合包的规范。
+
+6. [受服务器运营方控制更新的整合包规范](https://github.com/huanghongxun/HMCL/wiki/%E5%8F%97%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E8%90%A5%E6%96%B9%E6%8E%A7%E5%88%B6%E6%9B%B4%E6%96%B0%E7%9A%84%E6%95%B4%E5%90%88%E5%8C%85%E8%A7%84%E8%8C%83)
+
+   本文用于描述受服务器运营方控制更新的整合包规范，提供给其他希望兼容本规范的启动器开发者参考。
+
 ## 其他
 
 1. [为 HMCL 做出贡献](contribution.md)
