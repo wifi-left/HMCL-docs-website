@@ -38,7 +38,7 @@ You can also submit your suggestions here.
 4. [HMCL 的自动安装使用教程](auto-installing.md)
 
    它将告诉你如何用 HMCL 安装 Forge、Fabric、Fabric API、LiteLoader、Optifine 以及 模组 等。
-   
+
 5. [安装 Optifine / 光影](install_optifine.md)
 
    他将告诉你如何安装 Optifine 来使用光影。
