@@ -15,7 +15,7 @@
 
 ## 原版 & Forge报错
 ### 内存不足
-![1](./assets/img/docs/debug/vanilla_mem.png)
+![1](./https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/debug/vanilla_mem.png)
 
 这个问题是十分好解决的也是最常见的  
 我们需要根据崩溃原因来进行判断  
@@ -23,7 +23,7 @@
 
 ## Fabric 报错
 ### 缺少前置
-![2](./assets/img/docs/debug/fabric1.png)
+![2](./https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/debug/fabric1.png)
 
 在报错中，我们可以看到
 在第二项中有这些 mod 需要部分组件
@@ -33,7 +33,7 @@
 
 ### 模组冲突
 #### 一般情况
-![3](./assets/img/docs/debug/fabric2.png)
+![3](./https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/debug/fabric2.png)
 
 我们现在发现有两个 mod 在报错
 由第一项我们可以得知 optfabric 与 sodium 有冲突

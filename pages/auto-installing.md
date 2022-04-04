@@ -6,7 +6,7 @@
 
 当你在安装新的游戏客户端时候，会看到其中有forge，liteloader，fabric这3个mod加载器可供选择。
 
-![mod_loader](/assets/img/docs/auto-installing/mod_loader.png)
+![mod_loader](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/auto-installing/mod_loader.png)
 
 当你使用1.14及以上的游戏版本时，推荐使用fabric，1.14以下的版本推荐使用forge。liteloader只适用1.12及以前的版本(目前已停更)。
 
@@ -26,7 +26,7 @@ HMCL内置了Curseforge源和 Modrinth源的搜索和下载功能，目前已支
 
 **注意：请区分*Forge Mod* 和*Fabric Mod*，大部分mod在文件名中会注明，请不要选择错误，否则mod无法被正确加载。**
 
-![mod_install](/assets/img/docs/auto-installing/mod_install.png)
+![mod_install](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/auto-installing/mod_install.png)
 
 #### Fabric Mod
 
@@ -48,7 +48,7 @@ HMCL内置了Curseforge源和 Modrinth源的搜索和下载功能，目前已支
 
 或者在HMCL中`游戏管理页面—模组管理`页面点击添加模组或直接将文件拖入启动器窗口。
 
-![mod_add](assets/img/docs/auto-installing/mod_add.png)
+![mod_add](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/auto-installing/mod_add.png)
 
 ## 安装Mod后游戏报错/无法启动
 

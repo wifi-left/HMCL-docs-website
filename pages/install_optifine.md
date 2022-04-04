@@ -8,11 +8,11 @@
 
 当你在安装新的游戏客户端时候，会看到有个`Optifine`的选项。
 
-![optifine_install](assets/img/docs/install_optifine/optifine_install.png)
+![optifine_install](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/install_optifine/optifine_install.png)
 
 点开之后会看到有3个复选框，一般而言，`正式版`会比`测试版`更加稳定。选择安装`正式版`，如果没有`正式版`那么再考虑`测试版`。
 
-![select_optifine](assets/img/docs/install_optifine/select_optifine.png)
+![select_optifine](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/install_optifine/select_optifine.png)
 
 选择完合适的版本之后就可以点击右下角的`安装`继续进行安装。
 
@@ -22,7 +22,7 @@
 
 在对应的游戏版本管理页面，点击`自动安装`，你会看到有个`Optifine`的选项。
 
-![install_auto](assets/img/docs/install_optifine/install_auto-16338577874692.png)
+![install_auto](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/install_optifine/install_auto-16338577874692.png)
 
 点开之后选择合适的版本然后等待安装完成即可。
 
@@ -45,7 +45,7 @@
 
 双击打开或者使用`java -jar 文件名` 的方式打开，然后你就会看到这个界面。
 
-![change_path](assets/img/docs/install_optifine/change_path.png)
+![change_path](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/install_optifine/change_path.png)
 
 选择自己游戏的.minecraft目录（默认安装到`\AppData\Roaming\.minecraft`目录下），然后点击`Install`按钮，之后你在HMCL的版本列表中找到就含有Optifine名字的客户端启动即可。
 
@@ -69,6 +69,6 @@
 
 如果你不知道版本隔离是啥，也不会创建文件夹，那么请打开游戏，依次点击`设置—视频设置—光影—光影包文件夹`，在里面放入光影包，然后点击你要加载的光影，最后点击`完成`即可
 
-![shaders_setting](assets/img/docs/install_optifine/shaders_setting.png)
+![shaders_setting](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/install_optifine/shaders_setting.png)
 
 **注意：光影对于电脑配置的要求比较高，如果开了光影之后出现游戏画面很卡的情况，请升级电脑配置、使用低配置光影或者关闭光影。**

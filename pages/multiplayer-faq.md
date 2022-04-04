@@ -30,7 +30,7 @@
 
 在使用多人联机时出现下面图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/1.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/1.png)
 
 ### 回答
 
@@ -42,7 +42,7 @@
 
 在使用多人联机时出现下面图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/2.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/2.png)
 
 ### 回答
 
@@ -68,7 +68,7 @@
 
 在对方加入房间时出现下面图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/3.jpg)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/3.jpg)
 
 ### 回答
 
@@ -104,7 +104,7 @@
 
 进入 HMCL 多人联机页面时出现下方图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/4.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/4.png)
 
 ### 回答
 
@@ -122,7 +122,7 @@
 
 在创建房间时发生如下图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/5.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/5.png)
 
 ### 回答
 
@@ -138,7 +138,7 @@
 
 使用凭证开启桥接服务，然后创建房间时发生下方图片问题↓
 
-![](/assets/img/docs/multiplayer-faq/6.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/6.png)
 
 ### 回答
 
@@ -166,9 +166,9 @@
 
 创建房间时检测不到游戏端口，上面的小横条一直在动，如图↓
 
-![](/assets/img/docs/multiplayer-faq/7.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/7.png)
 
-![](/assets/img/docs/multiplayer-faq/8.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/8.png)
 
 ### 回答
 
@@ -198,7 +198,7 @@
 
 **注：加入方若使用离线账号，那么必须点击如在下方图片↓显示的 HMCL 多人联机房间按钮进入！否则无法进入**
 
-![](/assets/img/docs/multiplayer-faq/9.jpg)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/9.jpg)
 
 ## 9 在与他人联机时总是在每个整点或半点断开连接
 
@@ -206,7 +206,7 @@
 
 在与他人联机时总是在每个整点或半点断开连接，如图↓
 
-![](/assets/img/docs/multiplayer-faq/10.png)
+![](/https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/multiplayer-faq/10.png)
 
 ### 回答
 

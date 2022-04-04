@@ -14,7 +14,7 @@ __想必你注意到我了，记住上面讲的话__
 首先 Minecraft 的下载有着 HMCL 就十分的简单  
 
 首先打开你的 hmcl   
-![](assets/img/docs/about-questions/img.png)
+![](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/about-questions/img.png)
 
 找到 `下载`  
 
@@ -24,11 +24,11 @@ __想必你注意到我了，记住上面讲的话__
 
 __版本从上往下由高到低__  
 
-![](assets/img/docs/about-questions/img2.png)
+![](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/about-questions/img2.png)
 
 然后点击 `安装` 即可
 
-![](assets/img/docs/about-questions/img3.png)
+![](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/about-questions/img3.png)
 
 ## 关于游戏的游玩
 __想必你注意到我了，记住上面讲的话__  
@@ -53,7 +53,7 @@ __想必你注意到我了，记住上面讲的话__
 
 `资源包` 可以做到很多的功能，甚至改变游戏的体验
 
-大致示意图![](assets/img/docs/about-questions/img4.jpg)
+大致示意图![](https://cdn.jsdelivr.net/gh/wifi-left/HMCL-docs-website/pages/assets/img/docs/about-questions/img4.jpg)
 
 资源包详细资料   [跳转](https://minecraft.fandom.com/zh/wiki/%E8%B5%84%E6%BA%90%E5%8C%85)
 
