@@ -16,6 +16,7 @@ HMCL 联机模块使用了第三方软件 [Cato](https://s.mcer.cn/circle/71.htm
 
 1. [HMCL 联机教程](multiplayer-help.md)
 2. [NAT 网络类型为差怎么办？](multiplayer-symmetric.md)
+3. [HMCL 多人联机常见问题解答](multiplayer-faq.md)
 
 ## 其他
 
